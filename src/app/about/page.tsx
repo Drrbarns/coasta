@@ -13,7 +13,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Learn about Agrillano's history, leadership, values, and global produce supply network.",
   path: "/about-us",
-  image: "/gen-aerial.png",
+  image: "/gen-aerial.webp",
   noindex: true,
 });
 

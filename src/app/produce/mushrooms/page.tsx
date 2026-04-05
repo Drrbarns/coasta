@@ -20,7 +20,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Learn how Agrillano grows and delivers mushrooms with consistent quality, freshness, and food safety.",
   path: "/produce/mushrooms",
-  image: "/produce/mushrooms.png",
+  image: "/produce/mushrooms.webp",
 });
 
 export default function MushroomsPage() {

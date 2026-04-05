@@ -6,7 +6,7 @@ export function AboutHero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/gen-farm-sunrise.png"
+          src="/gen-farm-sunrise.webp"
           alt="Agrillano Farm Sunrise"
           fill
           className="object-cover object-center"

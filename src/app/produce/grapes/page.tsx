@@ -20,7 +20,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "See Agrillano grape varieties, growing regions, and quality standards serving domestic and global customers.",
   path: "/produce/grapes",
-  image: "/produce/grapes.png",
+  image: "/produce/grapes.webp",
 });
 
 export default function GrapesPage() {

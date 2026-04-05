@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Discover Agrillano's fresh produce, sustainable farming practices, and community impact across Australia and global markets.",
   path: "/",
-  image: "/gen-farm-sunrise.png",
+  image: "/gen-farm-sunrise.webp",
   type: "website",
 });
 

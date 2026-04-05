@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Meet Agrillano's leadership team guiding strategy, innovation, and quality produce outcomes.",
   path: "/about-us/leadership",
-  image: "/gen-aerial.png",
+  image: "/gen-aerial.webp",
 });
 
 export default function LeadershipPage() {

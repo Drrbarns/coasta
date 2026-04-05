@@ -10,6 +10,10 @@ type NavRow = {
   display_order: number;
 };
 
+function normalizeBrandCopy(value: string): string {
+  return value.replace(/\bCosta\b/g, "Agrillano");
+}
+
 function isSafeHref(href: string): boolean {
   if (!href || typeof href !== "string") return false;
   const trimmed = href.trim();
@@ -31,10 +35,10 @@ function buildMain(rows: NavRow[]): NavLink[] {
 
   return roots.map((root) => {
     const children = mainRows
-      .filter((row) => row.parent_label === root.label)
-      .map((row) => ({ label: row.label, href: sanitizeHref(row.href) }));
+      .filter((row) => normalizeBrandCopy(row.parent_label ?? "") === normalizeBrandCopy(root.label))
+      .map((row) => ({ label: normalizeBrandCopy(row.label), href: sanitizeHref(row.href) }));
     return {
-      label: root.label,
+      label: normalizeBrandCopy(root.label),
       href: sanitizeHref(root.href),
       children: children.length ? children : undefined,
     };
@@ -44,7 +48,7 @@ function buildMain(rows: NavRow[]): NavLink[] {
 function buildFooter(rows: NavRow[]) {
   const footerRows = rows
     .filter((row) => row.area === "footer")
-    .map((row) => ({ label: row.label, href: sanitizeHref(row.href) }));
+    .map((row) => ({ label: normalizeBrandCopy(row.label), href: sanitizeHref(row.href) }));
   if (footerRows.length === 0) return footerLegal.bottomLinks;
   return footerRows;
 }

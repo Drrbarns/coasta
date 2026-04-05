@@ -7,11 +7,11 @@ import { SocialSection } from "@/components/site/SocialSection";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "The Costa Story",
+  title: "The Agrillano Story",
   description:
     "Read the Agrillano story, from early roots to today's fresh produce network across Australia and beyond.",
   path: "/about-us/the-costa-story",
-  image: "/gen-farm-sunrise.png",
+  image: "/gen-farm-sunrise.webp",
 });
 
 export default function CostaStoryPage() {

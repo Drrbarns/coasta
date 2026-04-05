@@ -43,27 +43,39 @@ export function SiteHeader() {
       </a>
 
       {/* Green bar + left tongue (curve dips into hero); extra pb gives tongue height */}
-      <div className="relative z-10 w-full pb-[5rem] lg:pb-[5.35rem]">
+      <div className="relative z-10 w-full pb-[2.75rem] sm:pb-[4.2rem] lg:pb-[5.35rem]">
         <div
-          className="pointer-events-none absolute inset-0 bg-[var(--header-bg)]"
+          className="pointer-events-none absolute inset-0 bg-[var(--header-bg)] lg:hidden"
           style={{
             boxShadow: "0 1px 0 rgba(0,0,0,0.08)",
-            clipPath: "url(#header-tongue-clip)",
+            clipPath: "url(#header-tongue-clip-mobile)",
+          }}
+          aria-hidden
+        />
+        <div
+          className="pointer-events-none absolute inset-0 hidden bg-[var(--header-bg)] lg:block"
+          style={{
+            boxShadow: "0 1px 0 rgba(0,0,0,0.08)",
+            clipPath: "url(#header-tongue-clip-desktop)",
           }}
           aria-hidden
         />
         <svg className="absolute size-0" aria-hidden>
           <defs>
-            <clipPath id="header-tongue-clip" clipPathUnits="objectBoundingBox">
-              {/* Bar top; bar bottom at ~0.54; slightly deeper left tongue like reference */}
+            <clipPath id="header-tongue-clip-mobile" clipPathUnits="objectBoundingBox">
+              {/* Wider/deeper mobile tongue to match reference header shape */}
+              <path d="M 0 0 L 1 0 L 1 0.54 L 0.56 0.54 Q 0.26 1 0 0.54 Z" />
+            </clipPath>
+            <clipPath id="header-tongue-clip-desktop" clipPathUnits="objectBoundingBox">
+              {/* Desktop bar keeps a tighter curve */}
               <path d="M 0 0 L 1 0 L 1 0.54 L 0.12 0.54 Q 0.06 1 0 0.54 Z" />
             </clipPath>
           </defs>
         </svg>
 
-        <div className="relative z-[2] mx-auto flex min-h-[5.25rem] min-w-0 max-w-[1600px] flex-1 items-stretch justify-between lg:min-h-[5.5rem]">
-          <div className="flex min-w-0 flex-1 items-center py-3 pl-5 pr-2 sm:pl-6 md:pl-8 lg:pl-10">
-            <CostaLogo />
+        <div className="relative z-[2] mx-auto flex min-h-[4.5rem] min-w-0 max-w-[1600px] flex-1 items-stretch justify-between sm:min-h-[5.1rem] lg:min-h-[5.5rem]">
+          <div className="flex min-w-0 flex-1 items-center py-2.5 pl-5 pr-2 sm:pl-6 md:pl-8 lg:pl-10">
+            <CostaLogo imageClassName="h-[44px] w-auto [filter:brightness(0)_invert(1)] sm:h-[50px] md:h-[64px] md:[filter:none]" />
           </div>
 
           <nav
@@ -120,7 +132,7 @@ export function SiteHeader() {
                 </svg>
               ) : (
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.6} d="M5 8h14M5 16h14" />
                 </svg>
               )}
             </button>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { siteMeta } from "@/content/site";
 
-const FALLBACK_OG_IMAGE = "/gen-farm-sunrise.png";
+const FALLBACK_OG_IMAGE = "/gen-farm-sunrise.webp";
 const DEFAULT_KEYWORDS = [
   "Agrillano",
   "fresh produce",
@@ -115,7 +115,7 @@ export function organizationJsonLd() {
     "@type": "Organization",
     name: siteMeta.name,
     url: BASE_URL,
-    logo: absoluteUrl("/agrillano_logo_header@2x.png"),
+    logo: absoluteUrl("/agrillano_logo_header@2x.webp"),
     description: siteMeta.description,
     sameAs: [
       "https://www.instagram.com/",

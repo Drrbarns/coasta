@@ -22,7 +22,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Learn about Agrillano bananas, from farm practices and varieties to quality handling and distribution.",
   path: "/produce/bananas",
-  image: "/produce/bananas.png",
+  image: "/produce/bananas.webp",
 });
 
 export default function BananasPage() {

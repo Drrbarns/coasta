@@ -20,7 +20,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Discover Agrillano berries, including premium varieties, growing regions, and quality-first farming methods.",
   path: "/produce/berries",
-  image: "/produce/berries.png",
+  image: "/produce/berries.webp",
 });
 
 export default function BerriesPage() {

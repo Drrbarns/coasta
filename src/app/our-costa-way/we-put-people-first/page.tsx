@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Discover how Agrillano supports people-first culture, wellbeing, and opportunity across teams and communities.",
   path: "/our-costa-way/we-put-people-first",
-  image: "/gen-aerial.png",
+  image: "/gen-aerial.webp",
 });
 
 export default function PeopleFirstPage() {

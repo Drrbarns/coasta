@@ -20,7 +20,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Explore Agrillano's farmer-led, flavour-first approach to food safety, innovation, and sustainable growing.",
   path: "/our-costa-way/farmer-led-flavour-first",
-  image: "/gen-greenhouse.png",
+  image: "/gen-greenhouse.webp",
 });
 
 export default function FarmerLedPage() {

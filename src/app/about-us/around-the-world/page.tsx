@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "See how Agrillano's global supply and export partnerships deliver premium produce to international markets.",
   path: "/about-us/around-the-world",
-  image: "/gen-aerial.png",
+  image: "/gen-aerial.webp",
 });
 
 export default function AroundTheWorldPage() {

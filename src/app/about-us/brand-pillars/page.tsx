@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Discover the Agrillano brand pillars that shape quality, trust, and long-term grower partnerships.",
   path: "/about-us/brand-pillars",
-  image: "/gen-greenhouse.png",
+  image: "/gen-greenhouse.webp",
 });
 
 export default function BrandPillarsPage() {

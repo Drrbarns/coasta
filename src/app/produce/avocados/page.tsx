@@ -20,7 +20,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Explore Agrillano avocados, varieties, growing regions, and quality standards across the supply chain.",
   path: "/produce/avocados",
-  image: "/produce/avocados.png",
+  image: "/produce/avocados.webp",
 });
 
 export default function AvocadosPage() {

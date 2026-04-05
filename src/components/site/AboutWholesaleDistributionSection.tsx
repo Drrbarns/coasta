@@ -5,38 +5,38 @@ const exportHighlights = [
   {
     title: "Avocados",
     description: "Lovacado avocados are proudly grown and exported to key markets across Asia.",
-    image: "/produce/avocados.png",
+    image: "/produce/avocados.webp",
     circleColor: "#e6ebd4",
   },
   {
     title: "Citrus",
     description:
       "Our renowned 2PH and Vitor citrus brands are exported to markets across Japan, Hong Kong, North America, South East Asia, Europe and the Middle East.",
-    image: "/produce/citrus.png",
+    image: "/produce/citrus.webp",
     circleColor: "#efd997",
   },
   {
     title: "Grapes",
     description:
       "Known for their sweet, crisp, and juicy flavours, our Vitor grapes are enjoyed in more than 20 countries.",
-    image: "/produce/grapes.png",
+    image: "/produce/grapes.webp",
     circleColor: "#dce5bf",
   },
   {
     title: "Berries",
     description:
       "Our premium blueberries are exported throughout Asia, including Singapore, Thailand, Hong Kong and Indonesia.",
-    image: "/produce/berries.png",
+    image: "/produce/berries.webp",
     circleColor: "#d6dfea",
   },
 ];
 
 const mapMarkers = [
-  { top: "45%", left: "21%" },
-  { top: "58%", left: "50%" },
-  { top: "66%", left: "62%" },
-  { top: "73%", left: "70%" },
-  { top: "85%", left: "63%" },
+  { top: "62%", left: "18%", label: "Perth" },
+  { top: "72%", left: "53%", label: "Adelaide" },
+  { top: "78%", left: "62%", label: "Melbourne" },
+  { top: "68%", left: "70%", label: "Sydney" },
+  { top: "52%", left: "72%", label: "Brisbane" },
 ];
 
 export function AboutWholesaleDistributionSection() {
@@ -84,7 +84,7 @@ export function AboutWholesaleDistributionSection() {
 
       <section className="relative min-h-[260px] md:min-h-[500px]">
         <Image
-          src="/gen-logistics-truck.png"
+          src="/gen-logistics-truck.webp"
           alt="Agrillano wholesale operations"
           fill
           className="object-cover"
@@ -109,7 +109,7 @@ export function AboutWholesaleDistributionSection() {
         </div>
         <div className="relative min-h-[240px] md:min-h-[520px]">
           <Image
-            src="/gen-customer-service.png"
+            src="/gen-customer-service.webp"
             alt="Agrillano warehouse team"
             fill
             className="object-cover"
@@ -132,7 +132,7 @@ export function AboutWholesaleDistributionSection() {
 
       <section className="relative min-h-[240px] md:min-h-[500px]">
         <Image
-          src="/gen-teamwork.png"
+          src="/gen-teamwork.webp"
           alt="Agrillano distribution conversation"
           fill
           className="object-cover"
@@ -165,25 +165,33 @@ export function AboutWholesaleDistributionSection() {
 
           <div className="mt-8 rounded-[28px] bg-[#eceded] p-4">
             <div className="relative mx-auto max-w-[760px]">
-              <svg viewBox="0 0 900 560" className="h-auto w-full text-[#7ea89a]" aria-hidden>
+              <svg viewBox="0 0 900 600" className="h-auto w-full text-[#7ea89a]" aria-label="Map of Australia" role="img">
+                {/* Australia mainland */}
                 <path
                   fill="currentColor"
-                  d="M74 315l36-40 2-34 36-48 62-6 57-44 96-10 63 25 52-11 43 34 55 10 25 38 33 22 14 45-14 48-25 35-57 20-49 43-80 9-75-21-65 15-70-21-56-44-38-4-33-41z"
+                  d="M195 168c8-12 22-18 36-22 18-5 37-2 55 4 14 5 27 12 42 14 20 3 40-2 58-10 16-7 30-17 47-22 22-6 46-3 68 4 18 6 34 15 52 20 15 4 31 5 46 10 18 6 34 16 48 28 10 9 18 20 28 29 8 7 18 12 24 21 8 12 10 27 16 40 5 10 12 19 15 30 3 14 0 28-2 42-2 16-3 32-1 48 2 12 6 24 6 36 0 14-5 27-8 40-4 16-6 32-12 47-8 18-20 34-34 46-10 8-22 14-34 16-16 2-32 0-48-3-12-3-24-7-36-8-16-2-33 0-49 3-14 3-27 8-41 8-18 0-36-4-53-10-14-5-28-12-42-15-18-4-36-4-54-2-14 2-28 5-42 4-18-2-35-8-50-18-12-8-22-18-30-30-6-10-10-22-12-34-2-14 0-28 4-42 3-12 8-23 12-34 6-16 8-33 6-50-2-12-6-24-10-35-6-14-14-27-16-42-2-12-1-25 2-37 4-14 10-26 18-38z"
                 />
-                <ellipse cx="596" cy="500" rx="28" ry="16" fill="currentColor" />
-                <path d="M303 145v252M420 138v252M536 210v168" stroke="#dbe9e4" strokeWidth="4" />
-                <path d="M305 276h233M420 210h116" stroke="#dbe9e4" strokeWidth="4" />
-                <path d="M536 283h108" stroke="#dbe9e4" strokeWidth="4" />
+                {/* Tasmania */}
+                <ellipse cx="565" cy="520" rx="32" ry="22" fill="currentColor" />
+                {/* Internal grid lines representing distribution network */}
+                <path d="M320 190v230" stroke="#dbe9e4" strokeWidth="3" strokeDasharray="8 6" opacity="0.6" />
+                <path d="M460 170v260" stroke="#dbe9e4" strokeWidth="3" strokeDasharray="8 6" opacity="0.6" />
+                <path d="M590 210v220" stroke="#dbe9e4" strokeWidth="3" strokeDasharray="8 6" opacity="0.6" />
+                <path d="M210 300h460" stroke="#dbe9e4" strokeWidth="3" strokeDasharray="8 6" opacity="0.6" />
+                <path d="M320 230h270" stroke="#dbe9e4" strokeWidth="3" strokeDasharray="8 6" opacity="0.6" />
+                <path d="M400 380h250" stroke="#dbe9e4" strokeWidth="3" strokeDasharray="8 6" opacity="0.6" />
               </svg>
 
               {mapMarkers.map((marker, idx) => (
                 <span
-                  key={`${marker.top}-${marker.left}-${idx}`}
-                  className="absolute -translate-x-1/2 -translate-y-1/2"
+                  key={`${marker.label}-${idx}`}
+                  className="absolute -translate-x-1/2 -translate-y-1/2 flex flex-col items-center"
                   style={{ top: marker.top, left: marker.left }}
-                  aria-hidden
                 >
-                  <span className="block h-7 w-7 rounded-full border-2 border-[#4f8e7d] bg-[#8db4a8]/70" />
+                  <span className="block h-5 w-5 rounded-full border-2 border-[#3d7a6a] bg-[#5a9e8c] shadow-md md:h-7 md:w-7" />
+                  <span className="mt-1 whitespace-nowrap font-[family-name:var(--font-inter)] text-[0.6rem] font-semibold text-[var(--header-bg)] md:text-[0.72rem]">
+                    {marker.label}
+                  </span>
                 </span>
               ))}
             </div>

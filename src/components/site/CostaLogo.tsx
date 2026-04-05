@@ -2,7 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 /** Original Agrillano wordmark reference image. */
-export function CostaLogo({ className = "" }: { className?: string }) {
+export function CostaLogo({
+  className = "",
+  imageClassName = "h-[40px] w-auto md:h-[64px]",
+}: {
+  className?: string;
+  imageClassName?: string;
+}) {
   return (
     <Link
       href="/"
@@ -10,11 +16,11 @@ export function CostaLogo({ className = "" }: { className?: string }) {
       aria-label="Agrillano home"
     >
       <Image
-        src="/agrillano_logo_header@2x.png"
+        src="/agrillano_logo_header@2x.webp"
         alt="Agrillano"
         width={1472}
         height={1040}
-        className="h-[48px] w-auto md:h-[64px]"
+        className={imageClassName}
         priority
       />
     </Link>

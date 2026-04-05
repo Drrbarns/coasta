@@ -19,7 +19,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Build your career at Agrillano across farming, operations, logistics, and leadership pathways in Australian agriculture.",
   path: "/careers",
-  image: "/gen-greenhouse.png",
+  image: "/gen-greenhouse.webp",
 });
 
 export default function CareersPage() {

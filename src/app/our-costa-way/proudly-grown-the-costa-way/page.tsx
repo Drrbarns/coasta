@@ -14,11 +14,11 @@ import { SocialSection } from "@/components/site/SocialSection";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Proudly Grown: The Costa Way",
+  title: "Proudly Grown: The Agrillano Way",
   description:
     "Learn how Agrillano grows produce responsibly through innovation, quality systems, and sustainability.",
   path: "/our-costa-way/proudly-grown-the-costa-way",
-  image: "/gen-farm-sunrise.png",
+  image: "/gen-farm-sunrise.webp",
 });
 
 export default function ProudlyGrownPage() {

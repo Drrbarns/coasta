@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Learn Agrillano's story, values, leadership, and global produce footprint from Australia to international markets.",
   path: "/about-us",
-  image: "/gen-aerial.png",
+  image: "/gen-aerial.webp",
 });
 
 export default function AboutUsPage() {

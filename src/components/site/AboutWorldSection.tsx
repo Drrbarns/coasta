@@ -16,7 +16,7 @@ export function AboutWorldSection() {
 
         <div className="relative mt-10 h-[48vh] min-h-[280px] w-full md:h-[52vh] md:min-h-[340px] lg:h-[56vh] lg:min-h-[420px] rounded-3xl overflow-hidden">
           <Image
-            src="/gen-globe-bg.png"
+            src="/gen-globe-bg.webp"
             alt="Globe Background"
             fill
             className="object-cover opacity-80 mix-blend-multiply"

@@ -30,7 +30,21 @@ export function MotionEffects() {
     );
 
     nodes.forEach((node, index) => {
+      const delayMs = Math.min(index * 70, 420);
       node.classList.add("reveal-on-scroll");
+      node.style.setProperty("--reveal-delay", `${delayMs}ms`);
+
+      if (index === 0) {
+        node.classList.add("hero-load-in");
+        const heroItems = Array.from(
+          node.querySelectorAll<HTMLElement>("h1, h2, h3, p, a, button"),
+        );
+        heroItems.slice(0, 12).forEach((item, itemIndex) => {
+          const itemDelayMs = 120 + itemIndex * 90;
+          item.classList.add("hero-load-item");
+          item.style.setProperty("--hero-item-delay", `${itemDelayMs}ms`);
+        });
+      }
 
       // Keep above-the-fold content instantly visible.
       if (index < 3) {

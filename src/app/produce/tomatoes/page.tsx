@@ -20,7 +20,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Explore Agrillano tomato varieties, controlled-environment growing, and quality supply from farm to shelf.",
   path: "/produce/tomatoes",
-  image: "/produce/tomatoes.png",
+  image: "/produce/tomatoes.webp",
 });
 
 export default function TomatoesPage() {

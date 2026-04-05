@@ -11,11 +11,11 @@ import { SocialSection } from "@/components/site/SocialSection";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Our Costa Way",
+  title: "Our Agrillano Way",
   description:
-    "See how Agrillano delivers quality, safety, sustainability, and community outcomes through the Costa Way framework.",
+    "See how Agrillano delivers quality, safety, sustainability, and community outcomes through the Agrillano Way framework.",
   path: "/our-costa-way",
-  image: "/gen-aerial.png",
+  image: "/gen-aerial.webp",
 });
 
 export default function OurCostaWayPage() {

@@ -13,7 +13,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Contact Agrillano for wholesale produce, partnerships, media enquiries, and general support across Australia.",
   path: "/contact-us",
-  image: "/gen-aerial.png",
+  image: "/gen-aerial.webp",
 });
 
 export default function ContactUsPage() {

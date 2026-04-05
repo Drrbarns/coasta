@@ -10,7 +10,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Explore Agrillano's wholesale and distribution network delivering fresh produce across Australia every day.",
   path: "/about-us/wholesale-distribution",
-  image: "/gen-teamwork.png",
+  image: "/gen-teamwork.webp",
 });
 
 export default function WholesaleDistributionPage() {

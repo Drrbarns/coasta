@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { heroSlides } from "@/content/site";
+import { heroSlides, homeHero } from "@/content/site";
 
 export function HeroSlider() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -39,6 +39,19 @@ export function HeroSlider() {
           </div>
         );
       })}
+
+      <div className="absolute inset-0 z-10 flex items-end pb-20 sm:items-center sm:pb-0">
+        <div className="mx-auto w-full max-w-6xl px-6 sm:px-8">
+          <div className="max-w-3xl text-white drop-shadow-[0_8px_24px_rgba(0,0,0,0.35)]">
+            <h1 className="font-display text-4xl leading-[1.06] sm:text-5xl md:text-6xl lg:text-7xl">
+              {homeHero.title}
+            </h1>
+            <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/95 sm:mt-5 sm:text-lg md:text-xl">
+              {homeHero.subtitle}
+            </p>
+          </div>
+        </div>
+      </div>
 
       <div className="absolute bottom-5 left-1/2 z-20 flex -translate-x-1/2 items-center gap-2.5 sm:bottom-8">
         {heroSlides.map((slide, idx) => (

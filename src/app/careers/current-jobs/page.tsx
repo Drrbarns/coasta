@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Browse current Agrillano job openings across farming, packhouse, logistics, and corporate teams.",
   path: "/careers/current-jobs",
-  image: "/gen-greenhouse.png",
+  image: "/gen-greenhouse.webp",
 });
 
 type CurrentJob = {
@@ -103,7 +103,7 @@ export default async function CurrentJobsPage() {
         <section className="relative -mt-[4.5rem] mx-auto max-w-[1600px] overflow-hidden lg:-mt-[5rem]">
           <div className="relative min-h-[250px] md:min-h-[320px] lg:min-h-[420px]">
             <Image
-              src="/social/social-6.png"
+              src="/social/social-6.webp"
               alt="Agrillano team members in the field"
               fill
               className="object-cover object-center"

@@ -10,7 +10,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Explore Agrillano's produce categories including berries, citrus, grapes, mushrooms, tomatoes, avocados, and more.",
   path: "/produce",
-  image: "/gen-greenhouse.png",
+  image: "/gen-greenhouse.webp",
 });
 
 export default function ProducePage() {

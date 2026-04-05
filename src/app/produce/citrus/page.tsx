@@ -20,7 +20,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Explore Agrillano citrus products, varieties, and growing expertise for local and export markets.",
   path: "/produce/citrus",
-  image: "/produce/citrus.png",
+  image: "/produce/citrus.webp",
 });
 
 export default function CitrusPage() {
