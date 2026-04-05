@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1a4d3a;
+  --color-primary-dark: #0f2e22;
+  --color-accent: #3d8b5c;
+  --color-cream: #f4f1eb;
+  --color-border: #e0ddd4;
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  /* Header (Agrillano bar - original design) */
+  --header-bg: #004d2c;
+  /* Intro section (below hero) – sage/lime text on dark green */
+  --intro-text: #9fc9a4;
+  /* Agrillano Way Section */
+  --costa-way-bg: #f5d45d;
+  --costa-way-text: #004d2c;
+  /* Our produce – textured intro + circle accents */
+  --produce-intro-bg: #f2efe8;
+  --produce-circle-1: #e8edd8;
+  --produce-circle-2: #dce5f0;
+  --produce-circle-3: #e8e0ed;
+  --produce-circle-4: #f5f0d8;
+  --produce-circle-5: #f0e6dc;
+  --produce-circle-6: #eef0e0;
+  --produce-circle-7: #ebe8e0;
+  --produce-circle-8: #f2e8e4;
+  --produce-farmed-label: #2d7a4a;
+  /* Social Section */
+  --social-bg: #daeed8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-dm-sans);
+  --font-display: var(--font-source-serif);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+.font-display {
+  font-family: var(--font-source-serif), Georgia, serif;
+}
+
+@keyframes fadeUpIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 24px, 0) scale(0.995);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes heroPanA {
+  0% {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: scale(1.12) translate3d(-1.6%, -1.1%, 0);
+  }
+}
+
+@keyframes heroPanB {
+  0% {
+    transform: scale(1.05) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: scale(1.13) translate3d(1.4%, -1.4%, 0);
+  }
+}
+
+@keyframes heroPanC {
+  0% {
+    transform: scale(1.03) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: scale(1.11) translate3d(-1.1%, 0.9%, 0);
+  }
+}
+
+.hero-kenburns {
+  animation-duration: 7.2s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  will-change: transform;
+}
+
+.hero-pan-a {
+  animation-name: heroPanA;
+}
+
+.hero-pan-b {
+  animation-name: heroPanB;
+}
+
+.hero-pan-c {
+  animation-name: heroPanC;
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translate3d(0, 24px, 0);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+main a,
+main button,
+footer a,
+footer button {
+  transition: transform 0.22s ease, box-shadow 0.22s ease, opacity 0.22s ease, filter 0.22s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  main a:hover,
+  main button:hover,
+  footer a:hover,
+  footer button:hover {
+    transform: translateY(-1.5px);
+  }
+
+  main article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.14);
+  }
+
+  main article {
+    transition: transform 0.28s ease, box-shadow 0.28s ease;
+  }
+
+  main article img,
+  main section img {
+    transition: transform 0.5s ease, filter 0.35s ease;
+  }
+
+  main article:hover img,
+  main section:hover img {
+    transform: scale(1.02);
+    filter: saturate(1.06);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll,
+  .reveal-on-scroll.is-visible,
+  .hero-kenburns,
+  main a,
+  main button,
+  footer a,
+  footer button,
+  main article,
+  main article img,
+  main section img {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
