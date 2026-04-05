@@ -46,7 +46,6 @@ export function ProduceSection() {
         <div className="grid gap-x-12 gap-y-20 sm:grid-cols-2 lg:grid-cols-3">
           {produceItems.map((item, i) => {
             const circleColor = PRODUCE_CIRCLE_COLORS[i % PRODUCE_CIRCLE_COLORS.length];
-            const hasRays = item.title === "Berries International";
             return (
               <article
                 key={item.title}
@@ -63,38 +62,6 @@ export function ProduceSection() {
                       style={{ backgroundColor: circleColor }}
                       aria-hidden
                     />
-                    {/* Optional rays (e.g. Berries International) */}
-                    {hasRays && (
-                      <div
-                        className="absolute inset-0 overflow-hidden rounded-full"
-                        aria-hidden
-                      >
-                        <svg
-                          className="h-full w-full opacity-40"
-                          viewBox="0 0 200 200"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="8"
-                          style={{ color: "var(--produce-circle-3)" }}
-                        >
-                          {[0, 1, 2, 3, 4].map((n) => {
-                            const a = (n * 72 - 90) * (Math.PI / 180);
-                            const x1 = 100 + 70 * Math.cos(a);
-                            const y1 = 100 + 70 * Math.sin(a);
-                            return (
-                              <line
-                                key={n}
-                                x1="100"
-                                y1="100"
-                                x2={x1}
-                                y2={y1}
-                                strokeLinecap="round"
-                              />
-                            );
-                          })}
-                        </svg>
-                      </div>
-                    )}
                     {/* Fruit image – slightly scale to overlap circle edge */}
                     <div className="relative h-[85%] w-[85%] overflow-hidden rounded-full transition duration-300 group-hover:scale-105">
                       <Image

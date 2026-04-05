@@ -28,6 +28,10 @@ function sanitizeHref(href: string, fallback = "/"): string {
   return isSafeHref(href) ? href.trim() : fallback;
 }
 
+function isRemovedProducePath(href: string) {
+  return href === "/produce/berries-international";
+}
+
 function buildMain(rows: NavRow[]): NavLink[] {
   const mainRows = rows.filter((row) => row.area === "main");
   const roots = mainRows.filter((row) => !row.parent_label);
@@ -36,7 +40,8 @@ function buildMain(rows: NavRow[]): NavLink[] {
   return roots.map((root) => {
     const children = mainRows
       .filter((row) => normalizeBrandCopy(row.parent_label ?? "") === normalizeBrandCopy(root.label))
-      .map((row) => ({ label: normalizeBrandCopy(row.label), href: sanitizeHref(row.href) }));
+      .map((row) => ({ label: normalizeBrandCopy(row.label), href: sanitizeHref(row.href) }))
+      .filter((row) => !isRemovedProducePath(row.href));
     return {
       label: normalizeBrandCopy(root.label),
       href: sanitizeHref(root.href),

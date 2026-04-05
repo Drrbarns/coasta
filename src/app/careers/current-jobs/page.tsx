@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
-import { createClient } from "@/lib/supabase/server";
 import { buildMetadata } from "@/lib/seo";
+import { getCurrentJobs, getJobSlug, type PublicJob } from "@/lib/jobs";
 
 export const metadata: Metadata = buildMetadata({
   title: "Current Jobs at Agrillano",
@@ -14,84 +14,11 @@ export const metadata: Metadata = buildMetadata({
   image: "/gen-greenhouse.webp",
 });
 
-type CurrentJob = {
-  title: string;
-  summary: string;
-  type: string;
-  closingDate: string;
-  category: string;
-  location?: string;
-};
-
-const jobCardFields: Array<{ label: string; key: keyof CurrentJob }> = [
+const jobCardFields: Array<{ label: string; key: keyof PublicJob }> = [
   { label: "Job type", key: "type" },
   { label: "Closing date", key: "closingDate" },
   { label: "Category", key: "category" },
 ];
-
-const fallbackJobs: CurrentJob[] = [
-  {
-    title: "Task Leader (Technical) - Glasshouse Operations",
-    summary: "Lead technical greenhouse operations to support quality, yield, and team performance.",
-    type: "Full time",
-    closingDate: "Friday 1 May 2026",
-    category: "Tomato",
-  },
-  {
-    title: "Forklift Operator - Corindi",
-    summary: "Move and stage produce safely while supporting harvest and dispatch operations.",
-    type: "Casual / Seasonal",
-    closingDate: "Thursday 16 April 2026",
-    category: "Berries",
-  },
-  {
-    title: "Casual Quality Control Officers (QCs) - Renmark, SA",
-    summary: "Support quality checks and compliance processes across packhouse operations.",
-    type: "Casual / Seasonal",
-    closingDate: "Open until filled",
-    category: "Citrus / Grapes",
-  },
-  {
-    title: "Irrigation Maintenance Technician - Corindi",
-    summary: "Maintain irrigation systems to ensure efficient water delivery and uptime.",
-    type: "Casual / Seasonal",
-    closingDate: "Friday 10 April 2026",
-    category: "Berries",
-  },
-  {
-    title: "Warehouse Operator - Pooraka",
-    summary: "Coordinate receiving, storage, and outbound loads across warehouse operations.",
-    type: "Casual / Seasonal",
-    closingDate: "Immediate start available",
-    category: "Operations",
-  },
-  {
-    title: "Harvest Team Leader - Emerald",
-    summary: "Supervise picking teams and maintain safety and quality standards during harvest.",
-    type: "Full time",
-    closingDate: "Monday 27 April 2026",
-    category: "Citrus",
-  },
-];
-
-async function getCurrentJobs() {
-  const supabase = await createClient();
-  const { data, error } = await supabase
-    .from("jobs")
-    .select("title,summary,job_type,closing_date,category,location,is_published,display_order")
-    .eq("is_published", true)
-    .order("display_order", { ascending: true });
-
-  if (error || !data || data.length === 0) return fallbackJobs;
-  return data.map((row) => ({
-    title: row.title,
-    summary: row.summary,
-    type: row.job_type,
-    closingDate: row.closing_date,
-    category: row.category,
-    location: row.location ?? undefined,
-  })) as CurrentJob[];
-}
 
 export default async function CurrentJobsPage() {
   const currentJobs = await getCurrentJobs();
@@ -205,9 +132,14 @@ export default async function CurrentJobsPage() {
 
             <div className="space-y-4">
               {currentJobs.map((job) => (
-                <article key={job.title} className="rounded-[3px] border border-[#bdd6e6] bg-[#eef8ff] px-4 py-4 md:px-5">
+                <article
+                  key={job.id || `${job.title}-${job.closingDate}`}
+                  className="rounded-[3px] border border-[#bdd6e6] bg-[#eef8ff] px-4 py-4 md:px-5"
+                >
                   <h3 className="font-[family-name:var(--font-inter)] text-[2rem] font-semibold leading-[1.05] text-[var(--header-bg)]">
-                    {job.title}
+                    <Link href={`/careers/current-jobs/${getJobSlug(job)}`} className="hover:underline">
+                      {job.title}
+                    </Link>
                   </h3>
                   <p className="mt-2 text-[1rem] leading-[1.35] text-[var(--header-bg)]/88">{job.summary}</p>
 
@@ -223,13 +155,16 @@ export default async function CurrentJobsPage() {
                   <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
                     <div className="flex gap-2">
                       <a
-                        href={`mailto:careers@agrillano.com?subject=${encodeURIComponent(`Application: ${job.title}`)}&body=${encodeURIComponent(`Hi Agrillano Careers,\n\nI would like to apply for the position: ${job.title} (${job.category}).\n\nPlease find my details below:\n\n`)}`}
+                        href={
+                          job.applyUrl ||
+                          `mailto:careers@agrillano.com?subject=${encodeURIComponent(`Application: ${job.title}`)}&body=${encodeURIComponent(`Hi Agrillano Careers,\n\nI would like to apply for the position: ${job.title} (${job.category}).\n\nPlease find my details below:\n\n`)}`
+                        }
                         className="inline-flex h-10 items-center rounded-[4px] bg-[var(--header-bg)] px-4 text-[0.95rem] font-semibold text-white"
                       >
                         Apply now
                       </a>
                       <Link
-                        href="/contact-us#life-at-costa"
+                        href={`/careers/current-jobs/${getJobSlug(job)}`}
                         className="inline-flex h-10 items-center rounded-[4px] bg-[var(--header-bg)] px-4 text-[0.95rem] font-semibold text-white"
                       >
                         More info

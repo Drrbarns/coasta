@@ -13,7 +13,6 @@ const indexedRoutes = [
   "/produce/avocados",
   "/produce/bananas",
   "/produce/berries",
-  "/produce/berries-international",
   "/produce/citrus",
   "/produce/grapes",
   "/produce/mushrooms",

@@ -4,19 +4,13 @@
  */
 
 export const siteMeta = {
-  name: "Agrillano",
+  name: "Costa Group",
   tagline:
     "Nourishing people with wholesome food that tastes good, feels good, and does good.",
   description:
     "World-leading fresh produce company, supplying fresh and nutritious food to a global population.",
   /** Replace with your domain when you launch */
-  url: "https://agrillano.com",
-};
-
-export const homeHero = {
-  title: "Growing Fresh Food for Australia and Beyond",
-  subtitle:
-    "From sunrise harvests to global supply, Agrillano delivers premium produce with farmer-led expertise, sustainable practices, and flavour you can trust.",
+  url: "https://costagroup.com.au",
 };
 
 /** Two-column intro below hero: left = green block with lines, right = image */
@@ -36,12 +30,12 @@ export const introSection = {
 
 export const aboutHistorySection = {
   paragraphs: [
-    "In 1895, Francesco Agrillano couldn't have known he was about to lay the foundation for an international farming, packing and marketing fresh produce powerhouse. What started as a simple plan to fund his vineyard has sparked over a century of growth, passion and innovation.",
-    "Today, Agrillano leads the way in cultivating world - class fresh produce, harnessing advanced farming techniques and global partnerships to deliver the finest and most flavoursome fruits and vegetables to tables around the world.",
-    "We're proud to honour and continue the Agrillano family's legacy of passion, integrity and innovation, staying true to our roots. As farmers first, we pour heart and soul into finding better ways to grow."
+    "In 1895, Francesco Costa couldn't have known he was about to lay the foundation for an international farming, packing and marketing fresh produce powerhouse. What started as a simple plan to fund his vineyard has sparked over a century of growth, passion and innovation.",
+    "Today, Costa leads the way in cultivating world - class fresh produce, harnessing advanced farming techniques and global partnerships to deliver the finest and most flavoursome fruits and vegetables to tables around the world.",
+    "We're proud to honour and continue the Costa family's legacy of passion, integrity and innovation, staying true to our roots. As farmers first, we pour heart and soul into finding better ways to grow."
   ],
-  image: "/produce/berries.webp",
-  imageAlt: "Historical photo of T. Agrillano & Co. Fruit Merchants trucks",
+  image: "/about-history.png",
+  imageAlt: "Historical photo of T. Costa & Co. Fruit Merchants trucks",
 };
 
 export const aboutValuesSection = {
@@ -80,7 +74,7 @@ export const aboutValuesSection = {
 
 export const aboutLeadershipSection = {
   heading: "Leadership",
-  subtitle: "Get to know the team driving Agrillano's growth, innovation and transformation.",
+  subtitle: "Get to know the team driving Costa's growth, innovation and transformation.",
   members: [
     {
       name: "Marc Werner",
@@ -117,9 +111,7 @@ export const aboutWorldSection = {
     "Avocados",
     "Bananas",
     "Berries",
-    "Potato",
-    "Grains",
-    "Animals",
+    "Berries International",
     "Citrus",
     "Grapes",
     "Mushrooms",
@@ -128,38 +120,38 @@ export const aboutWorldSection = {
 };
 
 export const careersHero = {
-  title: "Work at Agrillano",
-  image: "/gen-agronomists.webp",
-  imageAlt: "Agrillano team members in protected cropping",
+  title: "Work at Costa",
+  image: "/social/social-6.png",
+  imageAlt: "Costa team members in protected cropping",
 };
 
 export const careersIntroSection = {
   title: "It’s Simple. We Care",
   body:
     "We’re farmers at heart—caring and nurturing not just our crops, but our people, too. Our Diversity and Inclusion Strategy sets clear goals to ensure talent is nurtured, developed, and valued across the board.",
-  image: "/gen-leadership-board.webp",
-  imageAlt: "Agrillano team member on a tractor in the field",
+  image: "/hero-tractor.png",
+  imageAlt: "Costa team member on a tractor in the field",
 };
 
 export const careersRolesSection = {
   title: "More roles than you think",
   body:
     "From apprenticeships and traineeships to scholarships and career development planning, we provide real opportunities for growth in ways you might not expect.",
-  image: "/gen-bananas.webp",
-  imageAlt: "Agrillano worker in produce quality area",
+  image: "/social/social-2.png",
+  imageAlt: "Costa worker in produce quality area",
 };
 
 export const careersCultureSection = {
   title: "Not just a bunch of corporates",
   body:
     "We lead from the ground up, inspiring and empowering our team to grow, learn, and make a difference. No fluff - just real people getting things done.",
-  image: "/produce/tomatoes.webp",
-  imageAlt: "Agrillano team member in hi-vis and Agrillano Well Grown beanie",
+  image: "/social/social-7.png",
+  imageAlt: "Costa team member in hi-vis and Costa Well Grown beanie",
 };
 
 /** Bottom-left photo in the culture 2×2 quad on /careers (building / sky band) */
 export const careersCultureQuadSection = {
-  bottomLeftImage: "/produce/mushrooms.webp",
+  bottomLeftImage: "/hero-tractor.png",
   bottomLeftAlt: "Tractor moving through orchard rows",
 };
 
@@ -167,21 +159,21 @@ export const careersFutureSection = {
   title: "Create a future you can be proud of",
   body:
     "Join us in driving sustainable farming that has a real impact. Be part of the future of food, connecting what’s on your plate to how we grow it.",
-  image: "/gen-community-market.webp",
-  imageAlt: "Agrillano team member in orange and navy hi-vis by a silo",
+  image: "/social/social-9.png",
+  imageAlt: "Costa team member in orange and navy hi-vis by a silo",
 };
 
 export const careersLifeSection = {
-  heading: "Life at Agrillano",
+  heading: "Life at Costa",
   intro:
-    "Lou grew up in the agricultural industry and spent much of her childhood on Agrillano's grape farm in Mundubbera and berry farm in Corindi, NSW. Having studied Agricultural Science with a major in Horticulture at the University of Queensland, Lou found Agrillano's Graduate Program to be a natural fit.",
+    "Lou grew up in the agricultural industry and spent much of her childhood on Costa's grape farm in Mundubbera and berry farm in Corindi, NSW. Having studied Agricultural Science with a major in Horticulture at the University of Queensland, Lou found Costa's Graduate Program to be a natural fit.",
   quoteLead:
-    "\u201cThe Agrillano graduate program has so many opportunities and has allowed me to explore ",
+    "\u201cThe Costa graduate program has so many opportunities and has allowed me to explore ",
   quoteTail:
     "areas outside of agronomy, such as operations, harvest and research,\u201d Lou explains. With roots deeply embedded in agriculture, Lou is excited by the diverse experiences the program offers, helping her gain a well-rounded understanding of horticulture.",
-  imageCaption: "Lou Wheatley, Agrillano Graduate",
-  image: "/gen-strawberry-macro.webp",
-  imageAlt: "Lou in an Agrillano greenhouse touching leafy plants",
+  imageCaption: "Lou Wheatley, Costa Group Graduate",
+  image: "/social/social-3.png",
+  imageAlt: "Lou in a Costa greenhouse touching leafy plants",
 };
 
 export const careersFeaturedWorkSection = {
@@ -202,31 +194,31 @@ export const careersGraduateSection = {
     "Kickstart your career in horticulture with hands-on experience, rotations across diverse produce groups, and access to leadership training.",
   ctaLabel: "Apply now",
   ctaHref: "/careers#graduates",
-  image: "/gen-planting-seedling.webp",
-  imageAlt: "Agrillano team member carrying produce boxes",
+  image: "/social/social-1.png",
+  imageAlt: "Costa team member carrying produce boxes",
 };
 
 export const careersScholarshipsSection = {
   heading: "University scholarships",
   paragraph1:
-    "Agrillano supports future leaders in agriculture by funding university scholarships for students in regional areas.",
+    "Costa supports future leaders in agriculture by funding university scholarships for students in regional areas.",
   paragraph2:
     "Discover opportunities for undergraduate and postgraduate studies at leading institutions across Australia.",
-  image: "/produce/grapes.webp",
-  imageAlt: "Agrillano team member in orchard with citrus fruit",
+  image: "/social/social-10.png",
+  imageAlt: "Costa team member in orchard with citrus fruit",
 };
 
 export const careersAdventureSection = {
   heading: "Pick your next adventure",
   body:
     "Join our team, pick up a homegrown job on the land. Explore Australia. Learn valuable skills. Make lifelong friends. It’s a season of plenty, and we want you to be a part of it.",
-  image: "/produce/tomatoes.webp",
+  image: "/social/social-9.png",
   imageAlt: "Team member harvesting produce",
 };
 
 export const careersJobsBulletinSection = {
   heading:
-    "Start your career with Agrillano. Subscribe to our monthly Jobs Bulletin and we'll send you our current job opportunities.",
+    "Start your career with Costa. Subscribe to our monthly Jobs Bulletin and we'll send you our current job opportunities.",
   fields: {
     firstName: "First name",
     lastName: "Last name",
@@ -235,14 +227,14 @@ export const careersJobsBulletinSection = {
     workRightDefault: "Yes",
     submit: "Submit",
   },
-  image: "/gen-agtech-drone.webp",
-  imageAlt: "Agrillano team member in greenhouse",
+  image: "/social/social-5.png",
+  imageAlt: "Costa team member in greenhouse",
 };
 
 export const produceHero = {
-  title: "World leaders in quality produce proudly grown the Agrillano way",
+  title: "World leaders in quality produce proudly grown the Costa way",
   subtitle: "",
-  image: "/gen-aerial.webp",
+  image: "/social/social-7.png",
   imageAlt: "Produce rows and harvest crates",
 };
 
@@ -257,12 +249,12 @@ export const ourCostaWayHero = {
 
 export const ourCostaWayCommitmentSection = {
   intro:
-    "Our commitment to our product, planet, and people drives everything we do - that’s how we pioneer the best-tasting produce, grown our Agrillano way.",
-  outro: "Discover how we keep to our commitments, our Agrillano way.",
+    "Our commitment to our product, planet, and people drives everything we do - that’s how we pioneer the best-tasting produce, grown our Costa way.",
+  outro: "Discover how we keep to our commitments, our Costa way.",
   circles: [
-    { image: "/gen-grapes.webp", alt: "Orchard rows" },
-    { image: "/produce/mushrooms.webp", alt: "Leafy produce close-up" },
-    { image: "/gen-grapes.webp", alt: "Agrillano team member in orchard" },
+    { image: "/social/social-4.png", alt: "Orchard rows" },
+    { image: "/social/social-7.png", alt: "Leafy produce close-up" },
+    { image: "/social/social-6.png", alt: "Costa team member in orchard" },
   ],
 };
 
@@ -272,22 +264,22 @@ export const ourCostaWayPillarsSection = {
       title: "Farmer led & flavour first",
       description:
         "From seed to harvest, we harness deep expertise and cutting-edge technology to create world-leading quality and flavour.",
-      image: "/gen-lab-science.webp",
+      image: "/social/social-8.png",
       imageAlt: "Team member inspecting crops",
     },
     {
-      title: "Proudly grown the Agrillano way",
+      title: "Proudly grown the Costa way",
       description:
         "We do what’s right for the land, pouring heart and soul into finding better ways to grow.",
-      image: "/gen-leadership-board.webp",
+      image: "/social/social-1.png",
       imageAlt: "Tomato crop in greenhouse",
     },
     {
       title: "We put people first",
       description:
-        "Our people are the backbone of Agrillano, and when they thrive, we thrive.",
-      image: "/gen-packhouse.webp",
-      imageAlt: "Agrillano team member with fresh produce",
+        "Our people are the backbone of Costa, and when they thrive, we thrive.",
+      image: "/social/social-3.png",
+      imageAlt: "Costa team member with fresh produce",
     },
   ],
 };
@@ -297,7 +289,7 @@ export const ourCostaWayFoodSafetySection = {
   strapline: "Fresh, safe, and full of flavour - our promise to you.",
   body:
     "From farm to table, we meet the highest food safety and quality standards, so you can enjoy every bite with confidence.",
-  image: "/gen-office-data.webp",
+  image: "/social/social-3.png",
   imageAlt: "Hands holding fresh berries",
 };
 
@@ -305,69 +297,69 @@ export const farmerLedFlavourFirstSection = {
   heading: "Farmer led & flavour first",
   lead:
     "How are our tomatoes so flavoursome? We trial up to 100 varieties each year to ensure that we select and grow only the best.",
-  image: "/gen-citrus.webp",
-  imageAlt: "Agrillano team member selecting plants in a protected greenhouse",
+  image: "/social/social-9.png",
+  imageAlt: "Costa team member selecting plants in a protected greenhouse",
 };
 
 export const farmerLedSoilMoistureSection = {
   body:
     "Perfectly sweet grapes, thanks to soil moisture tech to fine tune irrigation scheduling and nutrient applications.",
-  image: "/gen-avocados.webp",
+  image: "/social/social-4.png",
   imageAlt: "Aerial view of crop rows",
 };
 
 export const farmerLedAutonomousRobotsSection = {
   body:
     "By using autonomous robots to transport berries during harvest, we minimise handling time and ensure our berries are transported with care.",
-  image: "/gen-teamwork.webp",
+  image: "/social/social-8.png",
   imageAlt: "Autonomous harvesting transport moving through orchard rows",
 };
 
 export const farmerLedSubstrateSection = {
   body:
     "We use substrate farming, a hydroponic technique that allows us to grow berries, tomatoes and avocados in controlled environments, ensuring consistently superior size, texture and flavour throughout the season.",
-  image: "/gen-greenhouse.webp",
+  image: "/hero-tractor.png",
   imageAlt: "Aerial view of structured crop rows in controlled farming blocks",
 };
 
 export const farmerLedFoodSafetyIntroSection = {
   heading: "Food safety & quality",
   strapline: "Fresh, safe, and full of flavour - our promise to you.",
-  topImage: "/hero-tractor.webp",
+  topImage: "/hero-tractor.png",
   topImageAlt: "Aerial view of farm rows",
 };
 
 export const farmerLedFoodSafetyImageSection = {
   body:
     "From farm to table, we meet the highest food safety and quality standards, so you can enjoy every bite with confidence.",
-  image: "/gen-planting-seedling.webp",
+  image: "/our-costa-way/food-safety-overlay.png",
   imageAlt: "Hands holding fresh blackberries",
 };
 
 export const proudlyGrownImageBandSection = {
-  heading: "Proudly grown the Agrillano way",
-  image: "/gen-lab-science.webp",
+  heading: "Proudly grown the Costa way",
+  image: "/social/social-1.png",
   imageAlt: "Rows of tomato plants in a greenhouse",
 };
 
 export const proudlyGrownTomatoesSection = {
   body:
     "Juicy tomatoes, grown with just a tenth of the land compared to field grown for a fresher, planet-friendly choice.",
-  image: "/gen-bananas.webp",
+  image: "/social/social-1.png",
   imageAlt: "Tomatoes growing on the vine in a greenhouse",
 };
 
 export const proudlyGrownGlasshouseSection = {
   body:
     "Water-wise glasshouses? Our newest glasshouses capture and recycle every drop, ensuring top-quality produce.",
-  image: "/gen-greenhouse.webp",
+  image: "/social/social-9.png",
   imageAlt: "Inside a modern glasshouse growing operation",
 };
 
 export const proudlyGrownMushroomCompostSection = {
   body:
     "Mushrooms thriving on nutrient-rich compost made on-site, with every harvest giving back to the land for healthier soil.",
-  image: "/gen-agtech-drone.webp",
+  image: "/our-costa-way/proudly-grown-mushroom-compost.png",
   imageAlt: "Team member holding nutrient-rich compost material",
 };
 
@@ -375,7 +367,7 @@ export const proudlyGrownPackagingStatsSection = {
   intro:
     "Our packaging protects our fresh produce while reducing waste, so you can enjoy great food and feel good about it too. As proud APCO members, we’re committed to:",
   actionLabel: "Download our action plan",
-  actionHref: "/our-costa-way/proudly-grown-the-costa-way",
+  actionHref: "/our-costa-way/proudly-grown-the-costa-way/action-plan",
   stats: [
     { value: "99%", label: "of packaging components designed to be recoverable" },
     { value: "94%", label: "of packaging made with some recycled materials" },
@@ -387,7 +379,7 @@ export const proudlyGrownPackagingStatsSection = {
 export const proudlyGrownFoodSafetyIntroSection = {
   heading: "Food safety & quality",
   strapline: "Fresh, safe, and full of flavour - our promise to you.",
-  topImage: "/hero-tractor.webp",
+  topImage: "/hero-tractor.png",
   topImageAlt: "Aerial view of farm rows",
 };
 
@@ -410,11 +402,11 @@ export const ourCostaWayCertificationsSection = {
 };
 
 export const ourCostaWayReportsSection = {
-  heading: "Agrillano Reports",
+  heading: "Costa Reports",
   subtitle: "We don’t just do the right thing - we back it up with proof.",
   leftItems: [
-    "Agrillano 2024 Sustainability Report",
-    "Agrillano 2023 Sustainability Report",
+    "Costa 2024 Sustainability Report",
+    "Costa 2023 Sustainability Report",
     "Modern Slavery Statement 2024",
     "Annual Dams Safety Standards Report 2024",
     "Gender Pay Gap Employer Statement 2026",
@@ -441,7 +433,7 @@ export const avocadoPageSection = {
 };
 
 export const avocadoImageBandSection = {
-  image: "/gen-solar-panels.webp",
+  image: "/social/social-4.png",
   imageAlt: "Tractor moving through orchard rows",
 };
 
@@ -449,7 +441,7 @@ export const avocadoBrandsSection = {
   title: "Lovacado®",
   description:
     "Our trade marked brand for premium avocados, handpicked and ripened with care to provide a delicious eating experience",
-  image: "/gen-community-market.webp",
+  image: "/social/social-4.png",
   imageAlt: "Avocado orchard fruit on tree",
 };
 
@@ -457,8 +449,8 @@ export const avocadoVitorSection = {
   title: "VITOR Avocados",
   description:
     "Are grown with care for unmatched quality and flavour for our export markets.",
-  image: "/gen-leadership-board.webp",
-  imageAlt: "Agrillano team member in packhouse",
+  image: "/social/social-5.png",
+  imageAlt: "Costa team member in packhouse",
 };
 
 export const avocadoVarietiesSection = {
@@ -468,13 +460,13 @@ export const avocadoVarietiesSection = {
       name: "Hass",
       description:
         "Famous for its rich, creamy texture, Hass avocados transition from bright green to deep purplish-black as they ripen, delivering a subtle, delicious flavour.",
-      image: "/produce/avocados.webp",
+      image: "/produce/avocados.png",
     },
     {
       name: "Shepard",
       description:
         "This uniquely Australian variety keeps its smooth, green skin as it ripens and has a distinct nutty buttery taste and firmer flesh, perfect for slicing.",
-      image: "/gen-leadership-board.webp",
+      image: "/produce/avocados.png",
     },
   ],
   brandCallout: "Discover the Lovacado brand today",
@@ -484,8 +476,8 @@ export const avocadoWhereWeGrowSection = {
   heading: "Where we grow",
   body:
     "Our avocados are grown across Australia’s prime growing regions in Queensland’s Atherton Tablelands and Childers, the Mid North Coast of New South Wales and South Australia’s Riverland. By spanning these diverse climates, we can deliver a continuous supply of premium avocados, packed with flavour, all year round.",
-  image: "/gen-logistics-truck.webp",
-  imageAlt: "Agrillano team member harvesting from orchard trees",
+  image: "/social/social-8.png",
+  imageAlt: "Costa team member harvesting from orchard trees",
 };
 
 export const avocadoJourneySection = {
@@ -493,7 +485,7 @@ export const avocadoJourneySection = {
   title: "Avocado journey",
   body:
     "We manage the entire avocado journey—from propagation and growing to ripening and selling—providing end-to-end traceability and consistent quality in every avocado.",
-  image: "/gen-planting-seedling.webp",
+  image: "/social/social-4.png",
   imageAlt: "Aerial view of avocado orchards",
 };
 
@@ -501,7 +493,7 @@ export const avocadoHydroponicSection = {
   heading: "Hydroponic technology",
   body:
     "We grow some avocado trees in pots under protective netting in a process called substrate farming. This allows us to precisely manage water and nutrient inputs.",
-  image: "/gen-loading-pallet.webp",
+  image: "/social/social-7.png",
   imageAlt: "Avocado trees in pots under netting",
 };
 
@@ -509,7 +501,7 @@ export const avocadoRipenessSection = {
   heading: "Farm-fresh at peak ripeness",
   body:
     "Using advanced technologies like Dry Matter Testing, we harvest each avocado at the optimal moment for superior taste, creamy texture, and freshness.",
-  image: "/gen-loading-pallet.webp",
+  image: "/social/social-8.png",
   imageAlt: "Team member harvesting avocados at peak ripeness",
 };
 
@@ -517,7 +509,7 @@ export const avocadoNutrientSection = {
   heading: "Nutrient management for healthier trees",
   body:
     "By monitoring leaf data with cutting-edge technology, we give our avocado trees the exact nutrients they need to thrive, promoting healthier trees and superior fruit quality.",
-  image: "/gen-office-data.webp",
+  image: "/social/social-6.png",
   imageAlt: "Team member examining orchard soil and tree health",
 };
 
@@ -525,19 +517,19 @@ export const bananasIntroSection = {
   heading: "It’s Simple. We Care",
   body:
     "We’re farmers at heart—caring and nurturing not just our crops, but our people, too. Our Diversity and Inclusion Strategy sets clear goals to ensure talent is nurtured, developed, and valued across the board.",
-  image: "/produce/bananas.webp",
+  image: "/produce/avocados.png",
   imageAlt: "Fresh avocado half",
 };
 
 export const bananasImageBandSection = {
-  image: "/gen-aerial.webp",
+  image: "/social/social-4.png",
   imageAlt: "Tractor driving through orchard rows",
 };
 
 export const bananasOverviewSection = {
   heading: "Bananas",
   description:
-    "Our bananas are ripened just right and loaded with natural goodness, ready to enjoy every day, all year round. Grown with care and consistency, Agrillano bananas deliver quality fruit with flavour and freshness in every bunch.",
+    "Our bananas are ripened just right and loaded with natural goodness, ready to enjoy every day, all year round. Grown with care and consistency, Costa bananas deliver quality fruit with flavour and freshness in every bunch.",
   brandsHeading: "Our brands",
 };
 
@@ -545,7 +537,7 @@ export const bananasBrandsSection = {
   title: "Lovacado®",
   description:
     "Our trade marked brand for premium avocados, handpicked and ripened with care to provide a delicious eating experience",
-  image: "/gen-logistics-truck.webp",
+  image: "/social/social-4.png",
   imageAlt: "Avocado orchard fruit on tree",
 };
 
@@ -553,8 +545,8 @@ export const bananasVitorSection = {
   title: "VITOR Avocados",
   description:
     "Are grown with care for unmatched quality and flavour for our export markets.",
-  image: "/gen-grapes.webp",
-  imageAlt: "Agrillano team member in packhouse",
+  image: "/social/social-5.png",
+  imageAlt: "Costa team member in packhouse",
 };
 
 export const bananasVarietiesSection = {
@@ -564,13 +556,13 @@ export const bananasVarietiesSection = {
       name: "Shepard",
       description:
         "This uniquely Australian variety keeps its smooth, green skin as it ripens and has a distinct nutty buttery taste and firmer flesh, perfect for slicing.",
-      image: "/gen-loading-pallet.webp",
+      image: "/produce/avocados.png",
     },
     {
       name: "Hass",
       description:
         "Famous for its rich, creamy texture, Hass avocados transition from bright green to deep purplish-black as they ripen, delivering a subtle, delicious slightly nutty flavour.",
-      image: "/gen-farm-sunrise.webp",
+      image: "/produce/avocados.png",
     },
   ],
   brandCallout: "Discover the Lovacado brand today",
@@ -580,8 +572,8 @@ export const bananasWhereWeGrowSection = {
   heading: "Where we grow",
   body:
     "Our bananas are grown across Australia’s prime growing regions in Queensland and northern New South Wales. By spanning these diverse climates, we can deliver a continuous supply of premium bananas packed with flavour, freshness, and quality all year round.",
-  image: "/gen-history-truck.webp",
-  imageAlt: "Agrillano team member harvesting in orchard",
+  image: "/social/social-8.png",
+  imageAlt: "Costa team member harvesting in orchard",
 };
 
 export const bananasJourneySection = {
@@ -589,7 +581,7 @@ export const bananasJourneySection = {
   title: "Avocado journey",
   body:
     "We manage the entire avocado journey—from propagation and growing to ripening and selling—providing end-to-end traceability and consistent quality in every avocado.",
-  image: "/gen-tomatoes-vine.webp",
+  image: "/social/social-4.png",
   imageAlt: "Aerial view of orchard rows and harvest equipment",
 };
 
@@ -597,7 +589,7 @@ export const bananasHydroponicSection = {
   heading: "Hydroponic technology",
   body:
     "We grow some avocado trees in pots under protective netting in a process called substrate farming. This allows us to precisely manage water and nutrient inputs.",
-  image: "/gen-customer-service.webp",
+  image: "/social/social-7.png",
   imageAlt: "Avocado trees in pots under netting",
 };
 
@@ -605,7 +597,7 @@ export const bananasRipenessSection = {
   heading: "Farm-fresh at peak ripeness",
   body:
     "Using advanced technologies like Dry Matter Testing, we harvest each avocado at the optimal moment for superior taste, creamy texture, and freshness.",
-  image: "/gen-lab-science.webp",
+  image: "/social/social-8.png",
   imageAlt: "Team member harvesting produce at peak ripeness",
 };
 
@@ -613,7 +605,7 @@ export const bananasNutrientSection = {
   heading: "Nutrient management for healthier trees",
   body:
     "By monitoring leaf data with cutting-edge technology, we give our avocado trees the exact nutrients they need to thrive, promoting healthier trees and superior fruit quality.",
-  image: "/gen-tractor.webp",
+  image: "/social/social-6.png",
   imageAlt: "Team member assessing orchard soil and nutrient conditions",
 };
 
@@ -627,7 +619,7 @@ export const berriesPageSection = {
 };
 
 export const berriesImageBandSection = {
-  image: "/gen-berries.webp",
+  image: "/social/social-4.png",
   imageAlt: "Tractor moving through orchard rows",
 };
 
@@ -635,7 +627,7 @@ export const berriesBrandsSection = {
   title: "Lovacado®",
   description:
     "Our trade marked brand for premium berries, handpicked and ripened with care to provide a delicious eating experience",
-  image: "/gen-grapes.webp",
+  image: "/social/social-4.png",
   imageAlt: "Berries orchard fruit on tree",
 };
 
@@ -643,8 +635,8 @@ export const berriesVitorSection = {
   title: "VITOR Berries",
   description:
     "Are grown with care for unmatched quality and flavour for our export markets.",
-  image: "/gen-packhouse.webp",
-  imageAlt: "Agrillano team member in packhouse",
+  image: "/social/social-5.png",
+  imageAlt: "Costa team member in packhouse",
 };
 
 export const berriesVarietiesSection = {
@@ -654,13 +646,13 @@ export const berriesVarietiesSection = {
       name: "Hass",
       description:
         "Famous for its rich, creamy texture, Hass berries transition from bright green to deep purplish-black as they ripen, delivering a subtle, delicious flavour.",
-      image: "/gen-strawberry-macro.webp",
+      image: "/produce/berries.png",
     },
     {
       name: "Shepard",
       description:
         "This uniquely Australian variety keeps its smooth, green skin as it ripens and has a distinct nutty buttery taste and firmer flesh, perfect for slicing.",
-      image: "/gen-bananas.webp",
+      image: "/produce/berries.png",
     },
   ],
   brandCallout: "Discover the Lovacado brand today",
@@ -670,8 +662,8 @@ export const berriesWhereWeGrowSection = {
   heading: "Where we grow",
   body:
     "Our berries are grown across Australia’s prime growing regions in Queensland’s Atherton Tablelands and Childers, the Mid North Coast of New South Wales and South Australia’s Riverland. By spanning these diverse climates, we can deliver a continuous supply of premium berries, packed with flavour, all year round.",
-  image: "/gen-logistics-truck.webp",
-  imageAlt: "Agrillano team member harvesting from orchard trees",
+  image: "/social/social-8.png",
+  imageAlt: "Costa team member harvesting from orchard trees",
 };
 
 export const berriesJourneySection = {
@@ -679,7 +671,7 @@ export const berriesJourneySection = {
   title: "Berries journey",
   body:
     "We manage the entire berries journey—from propagation and growing to ripening and selling—providing end-to-end traceability and consistent quality in every berries.",
-  image: "/gen-water-irrigation.webp",
+  image: "/social/social-4.png",
   imageAlt: "Aerial view of berries orchards",
 };
 
@@ -687,7 +679,7 @@ export const berriesHydroponicSection = {
   heading: "Hydroponic technology",
   body:
     "We grow some berries trees in pots under protective netting in a process called substrate farming. This allows us to precisely manage water and nutrient inputs.",
-  image: "/gen-customer-service.webp",
+  image: "/social/social-7.png",
   imageAlt: "Berries trees in pots under netting",
 };
 
@@ -695,7 +687,7 @@ export const berriesRipenessSection = {
   heading: "Farm-fresh at peak ripeness",
   body:
     "Using advanced technologies like Dry Matter Testing, we harvest each berries at the optimal moment for superior taste, creamy texture, and freshness.",
-  image: "/gen-agtech-drone.webp",
+  image: "/social/social-8.png",
   imageAlt: "Team member harvesting berries at peak ripeness",
 };
 
@@ -703,7 +695,7 @@ export const berriesNutrientSection = {
   heading: "Nutrient management for healthier trees",
   body:
     "By monitoring leaf data with cutting-edge technology, we give our berries trees the exact nutrients they need to thrive, promoting healthier trees and superior fruit quality.",
-  image: "/gen-citrus.webp",
+  image: "/social/social-6.png",
   imageAlt: "Team member examining orchard soil and tree health",
 };
 
@@ -716,7 +708,7 @@ export const berriesinternationalPageSection = {
 };
 
 export const berriesinternationalImageBandSection = {
-  image: "/gen-berries.webp",
+  image: "/social/social-4.png",
   imageAlt: "Tractor moving through orchard rows",
 };
 
@@ -724,7 +716,7 @@ export const berriesinternationalBrandsSection = {
   title: "Lovacado®",
   description:
     "Our trade marked brand for premium berries international, handpicked and ripened with care to provide a delicious eating experience",
-  image: "/gen-agronomists.webp",
+  image: "/social/social-4.png",
   imageAlt: "Berries International orchard fruit on tree",
 };
 
@@ -732,8 +724,8 @@ export const berriesinternationalVitorSection = {
   title: "VITOR Berries International",
   description:
     "Are grown with care for unmatched quality and flavour for our export markets.",
-  image: "/gen-bananas.webp",
-  imageAlt: "Agrillano team member in packhouse",
+  image: "/social/social-5.png",
+  imageAlt: "Costa team member in packhouse",
 };
 
 export const berriesinternationalVarietiesSection = {
@@ -743,13 +735,13 @@ export const berriesinternationalVarietiesSection = {
       name: "Hass",
       description:
         "Famous for its rich, creamy texture, Hass berries international transition from bright green to deep purplish-black as they ripen, delivering a subtle, delicious flavour.",
-      image: "/gen-leadership-board.webp",
+      image: "/produce/berries international.png",
     },
     {
       name: "Shepard",
       description:
         "This uniquely Australian variety keeps its smooth, green skin as it ripens and has a distinct nutty buttery taste and firmer flesh, perfect for slicing.",
-      image: "/gen-potatoes-soil.webp",
+      image: "/produce/berries international.png",
     },
   ],
   brandCallout: "Discover the Lovacado brand today",
@@ -759,8 +751,8 @@ export const berriesinternationalWhereWeGrowSection = {
   heading: "Where we grow",
   body:
     "Our berries international are grown across Australia’s prime growing regions in Queensland’s Atherton Tablelands and Childers, the Mid North Coast of New South Wales and South Australia’s Riverland. By spanning these diverse climates, we can deliver a continuous supply of premium berries international, packed with flavour, all year round.",
-  image: "/gen-solar-panels.webp",
-  imageAlt: "Agrillano team member harvesting from orchard trees",
+  image: "/social/social-8.png",
+  imageAlt: "Costa team member harvesting from orchard trees",
 };
 
 export const berriesinternationalJourneySection = {
@@ -768,7 +760,7 @@ export const berriesinternationalJourneySection = {
   title: "Berries International journey",
   body:
     "We manage the entire berries international journey—from propagation and growing to ripening and selling—providing end-to-end traceability and consistent quality in every berries international.",
-  image: "/gen-lab-science.webp",
+  image: "/social/social-4.png",
   imageAlt: "Aerial view of berries international orchards",
 };
 
@@ -776,7 +768,7 @@ export const berriesinternationalHydroponicSection = {
   heading: "Hydroponic technology",
   body:
     "We grow some berries international trees in pots under protective netting in a process called substrate farming. This allows us to precisely manage water and nutrient inputs.",
-  image: "/gen-agtech-drone.webp",
+  image: "/social/social-7.png",
   imageAlt: "Berries International trees in pots under netting",
 };
 
@@ -784,7 +776,7 @@ export const berriesinternationalRipenessSection = {
   heading: "Farm-fresh at peak ripeness",
   body:
     "Using advanced technologies like Dry Matter Testing, we harvest each berries international at the optimal moment for superior taste, creamy texture, and freshness.",
-  image: "/gen-greenhouse.webp",
+  image: "/social/social-8.png",
   imageAlt: "Team member harvesting berries international at peak ripeness",
 };
 
@@ -792,7 +784,7 @@ export const berriesinternationalNutrientSection = {
   heading: "Nutrient management for healthier trees",
   body:
     "By monitoring leaf data with cutting-edge technology, we give our berries international trees the exact nutrients they need to thrive, promoting healthier trees and superior fruit quality.",
-  image: "/gen-lab-science.webp",
+  image: "/social/social-6.png",
   imageAlt: "Team member examining orchard soil and tree health",
 };
 
@@ -805,7 +797,7 @@ export const citrusPageSection = {
 };
 
 export const citrusImageBandSection = {
-  image: "/gen-loading-pallet.webp",
+  image: "/social/social-4.png",
   imageAlt: "Tractor moving through orchard rows",
 };
 
@@ -813,7 +805,7 @@ export const citrusBrandsSection = {
   title: "Lovacado®",
   description:
     "Grown exclusively on farms in Emerald Queensland, this prestigious Australian brand is enjoyed globally for its exceptional quality and sweet, rich flavour.",
-  image: "/gen-citrus.webp",
+  image: "/social/social-4.png",
   imageAlt: "Citrus orchard fruit on tree",
 };
 
@@ -821,8 +813,8 @@ export const citrusVitorSection = {
   title: "VITOR Citrus",
   description:
     "Are grown with care for unmatched quality and flavour for our export markets.",
-  image: "/gen-office-data.webp",
-  imageAlt: "Agrillano team member in packhouse",
+  image: "/social/social-5.png",
+  imageAlt: "Costa team member in packhouse",
 };
 
 export const citrusVarietiesSection = {
@@ -832,13 +824,13 @@ export const citrusVarietiesSection = {
       name: "Hass",
       description:
         "Famous for its rich, creamy texture, Hass citrus transition from bright green to deep purplish-black as they ripen, delivering a subtle, delicious flavour.",
-      image: "/gen-loading-pallet.webp",
+      image: "/produce/citrus.png",
     },
     {
       name: "Shepard",
       description:
         "This uniquely Australian variety keeps its smooth, green skin as it ripens and has a distinct nutty buttery taste and firmer flesh, perfect for slicing.",
-      image: "/gen-loading-pallet.webp",
+      image: "/produce/citrus.png",
     },
   ],
   brandCallout: "Discover the Lovacado brand today",
@@ -847,9 +839,9 @@ export const citrusVarietiesSection = {
 export const citrusWhereWeGrowSection = {
   heading: "Where we grow",
   body:
-    "Agrillano’s citrus orchards thrive in Australia’s most renowned growing regions, including South Australia’s Riverland, Victoria’s Sunraysia, and Central Queensland’s Emerald. The unique climates in these locations deliver the most suitable conditions for producing high-quality citrus with rich, consistently great taste and vibrant flavour.",
-  image: "/gen-teamwork.webp",
-  imageAlt: "Agrillano team member harvesting from orchard trees",
+    "Costa’s citrus orchards thrive in Australia’s most renowned growing regions, including South Australia’s Riverland, Victoria’s Sunraysia, and Central Queensland’s Emerald. The unique climates in these locations deliver the most suitable conditions for producing high-quality citrus with rich, consistently great taste and vibrant flavour.",
+  image: "/social/social-8.png",
+  imageAlt: "Costa team member harvesting from orchard trees",
 };
 
 export const citrusJourneySection = {
@@ -857,7 +849,7 @@ export const citrusJourneySection = {
   title: "Citrus journey",
   body:
     "We manage the entire citrus journey—from propagation and growing to ripening and selling—providing end-to-end traceability and consistent quality in every citrus.",
-  image: "/gen-logistics-truck.webp",
+  image: "/social/social-4.png",
   imageAlt: "Aerial view of citrus orchards",
 };
 
@@ -865,7 +857,7 @@ export const citrusHydroponicSection = {
   heading: "Hydroponic technology",
   body:
     "We grow some citrus trees in pots under protective netting in a process called substrate farming. This allows us to precisely manage water and nutrient inputs.",
-  image: "/gen-avocados.webp",
+  image: "/social/social-7.png",
   imageAlt: "Citrus trees in pots under netting",
 };
 
@@ -873,7 +865,7 @@ export const citrusRipenessSection = {
   heading: "Farm-fresh at peak ripeness",
   body:
     "Using advanced technologies like Dry Matter Testing, we harvest each citrus at the optimal moment for superior taste, creamy texture, and freshness.",
-  image: "/gen-loading-pallet.webp",
+  image: "/social/social-8.png",
   imageAlt: "Team member harvesting citrus at peak ripeness",
 };
 
@@ -881,7 +873,7 @@ export const citrusNutrientSection = {
   heading: "Nutrient management for healthier trees",
   body:
     "By monitoring leaf data with cutting-edge technology, we give our citrus trees the exact nutrients they need to thrive, promoting healthier trees and superior fruit quality.",
-  image: "/gen-bananas.webp",
+  image: "/social/social-6.png",
   imageAlt: "Team member examining orchard soil and tree health",
 };
 
@@ -894,7 +886,7 @@ export const grapesPageSection = {
 };
 
 export const grapesImageBandSection = {
-  image: "/gen-solar-panels.webp",
+  image: "/social/social-4.png",
   imageAlt: "Tractor moving through orchard rows",
 };
 
@@ -902,7 +894,7 @@ export const grapesBrandsSection = {
   title: "Lovacado®",
   description:
     "Our trade marked brand for premium grapes, handpicked and ripened with care to provide a delicious eating experience",
-  image: "/produce/grapes.webp",
+  image: "/social/social-4.png",
   imageAlt: "Grapes orchard fruit on tree",
 };
 
@@ -910,8 +902,8 @@ export const grapesVitorSection = {
   title: "VITOR Grapes",
   description:
     "Are grown with care for unmatched quality and flavour for our export markets.",
-  image: "/gen-community-market.webp",
-  imageAlt: "Agrillano team member in packhouse",
+  image: "/social/social-5.png",
+  imageAlt: "Costa team member in packhouse",
 };
 
 export const grapesVarietiesSection = {
@@ -921,13 +913,13 @@ export const grapesVarietiesSection = {
       name: "Hass",
       description:
         "Famous for its rich, creamy texture, Hass grapes transition from bright green to deep purplish-black as they ripen, delivering a subtle, delicious flavour.",
-      image: "/gen-packhouse.webp",
+      image: "/produce/grapes.png",
     },
     {
       name: "Shepard",
       description:
         "This uniquely Australian variety keeps its smooth, green skin as it ripens and has a distinct nutty buttery taste and firmer flesh, perfect for slicing.",
-      image: "/gen-tomatoes-vine.webp",
+      image: "/produce/grapes.png",
     },
   ],
   brandCallout: "Discover the Lovacado brand today",
@@ -936,9 +928,9 @@ export const grapesVarietiesSection = {
 export const grapesWhereWeGrowSection = {
   heading: "Where we grow",
   body:
-    "Agrillano’s grapes flourish across Queensland’s Emerald and Mundubbera regions, and Victoria’s Sunraysia from November to June. During the Australian off-season, we source premium proprietary varieties from trusted partners in the USA and Mexico, ensuring a steady and reliable supply throughout the year to domestic and export markets.",
-  image: "/gen-teamwork.webp",
-  imageAlt: "Agrillano team member harvesting from orchard trees",
+    "Costa’s grapes flourish across Queensland’s Emerald and Mundubbera regions, and Victoria’s Sunraysia from November to June. During the Australian off-season, we source premium proprietary varieties from trusted partners in the USA and Mexico, ensuring a steady and reliable supply throughout the year to domestic and export markets.",
+  image: "/social/social-8.png",
+  imageAlt: "Costa team member harvesting from orchard trees",
 };
 
 export const grapesJourneySection = {
@@ -946,7 +938,7 @@ export const grapesJourneySection = {
   title: "Grapes journey",
   body:
     "We manage the entire grapes journey—from propagation and growing to ripening and selling—providing end-to-end traceability and consistent quality in every grapes.",
-  image: "/gen-bananas.webp",
+  image: "/social/social-4.png",
   imageAlt: "Aerial view of grapes orchards",
 };
 
@@ -954,7 +946,7 @@ export const grapesHydroponicSection = {
   heading: "Hydroponic technology",
   body:
     "We grow some grapes trees in pots under protective netting in a process called substrate farming. This allows us to precisely manage water and nutrient inputs.",
-  image: "/gen-history-truck.webp",
+  image: "/social/social-7.png",
   imageAlt: "Grapes trees in pots under netting",
 };
 
@@ -962,7 +954,7 @@ export const grapesRipenessSection = {
   heading: "Farm-fresh at peak ripeness",
   body:
     "Using advanced technologies like Dry Matter Testing, we harvest each grapes at the optimal moment for superior taste, creamy texture, and freshness.",
-  image: "/gen-farm-sunrise.webp",
+  image: "/social/social-8.png",
   imageAlt: "Team member harvesting grapes at peak ripeness",
 };
 
@@ -970,7 +962,7 @@ export const grapesNutrientSection = {
   heading: "Nutrient management for healthier trees",
   body:
     "By monitoring leaf data with cutting-edge technology, we give our grapes trees the exact nutrients they need to thrive, promoting healthier trees and superior fruit quality.",
-  image: "/gen-community-market.webp",
+  image: "/social/social-6.png",
   imageAlt: "Team member examining orchard soil and tree health",
 };
 
@@ -983,7 +975,7 @@ export const mushroomsPageSection = {
 };
 
 export const mushroomsImageBandSection = {
-  image: "/gen-office-data.webp",
+  image: "/social/social-4.png",
   imageAlt: "Tractor moving through orchard rows",
 };
 
@@ -991,7 +983,7 @@ export const mushroomsBrandsSection = {
   title: "Lovacado®",
   description:
     "Our trade marked brand for premium mushrooms, handpicked and ripened with care to provide a delicious eating experience",
-  image: "/gen-fresh-market.webp",
+  image: "/social/social-4.png",
   imageAlt: "Mushrooms orchard fruit on tree",
 };
 
@@ -999,8 +991,8 @@ export const mushroomsVitorSection = {
   title: "VITOR Mushrooms",
   description:
     "Are grown with care for unmatched quality and flavour for our export markets.",
-  image: "/gen-farm-sunrise.webp",
-  imageAlt: "Agrillano team member in packhouse",
+  image: "/social/social-5.png",
+  imageAlt: "Costa team member in packhouse",
 };
 
 export const mushroomsVarietiesSection = {
@@ -1010,13 +1002,13 @@ export const mushroomsVarietiesSection = {
       name: "Hass",
       description:
         "Famous for its rich, creamy texture, Hass mushrooms transition from bright green to deep purplish-black as they ripen, delivering a subtle, delicious flavour.",
-      image: "/gen-potatoes-soil.webp",
+      image: "/produce/mushrooms.png",
     },
     {
       name: "Shepard",
       description:
         "This uniquely Australian variety keeps its smooth, green skin as it ripens and has a distinct nutty buttery taste and firmer flesh, perfect for slicing.",
-      image: "/gen-grapes.webp",
+      image: "/produce/mushrooms.png",
     },
   ],
   brandCallout: "Discover the Lovacado brand today",
@@ -1026,8 +1018,8 @@ export const mushroomsWhereWeGrowSection = {
   heading: "Where we grow",
   body:
     "Our mushrooms are grown across Australia’s prime growing regions in Queensland’s Atherton Tablelands and Childers, the Mid North Coast of New South Wales and South Australia’s Riverland. By spanning these diverse climates, we can deliver a continuous supply of premium mushrooms, packed with flavour, all year round.",
-  image: "/gen-farm-sunrise.webp",
-  imageAlt: "Agrillano team member harvesting from orchard trees",
+  image: "/social/social-8.png",
+  imageAlt: "Costa team member harvesting from orchard trees",
 };
 
 export const mushroomsJourneySection = {
@@ -1035,7 +1027,7 @@ export const mushroomsJourneySection = {
   title: "Mushrooms journey",
   body:
     "We manage the entire mushrooms journey—from propagation and growing to ripening and selling—providing end-to-end traceability and consistent quality in every mushrooms.",
-  image: "/gen-community-market.webp",
+  image: "/social/social-4.png",
   imageAlt: "Aerial view of mushrooms orchards",
 };
 
@@ -1043,7 +1035,7 @@ export const mushroomsHydroponicSection = {
   heading: "Hydroponic technology",
   body:
     "We grow some mushrooms trees in pots under protective netting in a process called substrate farming. This allows us to precisely manage water and nutrient inputs.",
-  image: "/gen-tractor.webp",
+  image: "/social/social-7.png",
   imageAlt: "Mushrooms trees in pots under netting",
 };
 
@@ -1051,7 +1043,7 @@ export const mushroomsRipenessSection = {
   heading: "Farm-fresh at peak ripeness",
   body:
     "Using advanced technologies like Dry Matter Testing, we harvest each mushrooms at the optimal moment for superior taste, creamy texture, and freshness.",
-  image: "/gen-loading-pallet.webp",
+  image: "/social/social-8.png",
   imageAlt: "Team member harvesting mushrooms at peak ripeness",
 };
 
@@ -1059,7 +1051,7 @@ export const mushroomsNutrientSection = {
   heading: "Nutrient management for healthier trees",
   body:
     "By monitoring leaf data with cutting-edge technology, we give our mushrooms trees the exact nutrients they need to thrive, promoting healthier trees and superior fruit quality.",
-  image: "/gen-fresh-market.webp",
+  image: "/social/social-6.png",
   imageAlt: "Team member examining orchard soil and tree health",
 };
 
@@ -1072,7 +1064,7 @@ export const tomatoesPageSection = {
 };
 
 export const tomatoesImageBandSection = {
-  image: "/gen-agtech-drone.webp",
+  image: "/social/social-4.png",
   imageAlt: "Tractor moving through orchard rows",
 };
 
@@ -1080,7 +1072,7 @@ export const tomatoesBrandsSection = {
   title: "Lovacado®",
   description:
     "Our trade marked brand for premium tomatoes, handpicked and ripened with care to provide a delicious eating experience",
-  image: "/gen-greenhouse.webp",
+  image: "/social/social-4.png",
   imageAlt: "Tomatoes orchard fruit on tree",
 };
 
@@ -1088,8 +1080,8 @@ export const tomatoesVitorSection = {
   title: "VITOR Tomatoes",
   description:
     "Are grown with care for unmatched quality and flavour for our export markets.",
-  image: "/gen-strawberry-macro.webp",
-  imageAlt: "Agrillano team member in packhouse",
+  image: "/social/social-5.png",
+  imageAlt: "Costa team member in packhouse",
 };
 
 export const tomatoesVarietiesSection = {
@@ -1099,13 +1091,13 @@ export const tomatoesVarietiesSection = {
       name: "Hass",
       description:
         "Famous for its rich, creamy texture, Hass tomatoes transition from bright green to deep purplish-black as they ripen, delivering a subtle, delicious flavour.",
-      image: "/gen-solar-panels.webp",
+      image: "/produce/tomatoes.png",
     },
     {
       name: "Shepard",
       description:
         "This uniquely Australian variety keeps its smooth, green skin as it ripens and has a distinct nutty buttery taste and firmer flesh, perfect for slicing.",
-      image: "/gen-grapes.webp",
+      image: "/produce/tomatoes.png",
     },
   ],
   brandCallout: "Discover the Lovacado brand today",
@@ -1115,8 +1107,8 @@ export const tomatoesWhereWeGrowSection = {
   heading: "Where we grow",
   body:
     "Our tomatoes are grown across Australia’s prime growing regions in Queensland’s Atherton Tablelands and Childers, the Mid North Coast of New South Wales and South Australia’s Riverland. By spanning these diverse climates, we can deliver a continuous supply of premium tomatoes, packed with flavour, all year round.",
-  image: "/gen-graduate.webp",
-  imageAlt: "Agrillano team member harvesting from orchard trees",
+  image: "/social/social-8.png",
+  imageAlt: "Costa team member harvesting from orchard trees",
 };
 
 export const tomatoesJourneySection = {
@@ -1124,7 +1116,7 @@ export const tomatoesJourneySection = {
   title: "Tomatoes journey",
   body:
     "We manage the entire tomatoes journey—from propagation and growing to ripening and selling—providing end-to-end traceability and consistent quality in every tomatoes.",
-  image: "/gen-solar-panels.webp",
+  image: "/social/social-4.png",
   imageAlt: "Aerial view of tomatoes orchards",
 };
 
@@ -1132,7 +1124,7 @@ export const tomatoesHydroponicSection = {
   heading: "Hydroponic technology",
   body:
     "We grow some tomatoes trees in pots under protective netting in a process called substrate farming. This allows us to precisely manage water and nutrient inputs.",
-  image: "/gen-farm-sunrise.webp",
+  image: "/social/social-7.png",
   imageAlt: "Tomatoes trees in pots under netting",
 };
 
@@ -1140,7 +1132,7 @@ export const tomatoesRipenessSection = {
   heading: "Farm-fresh at peak ripeness",
   body:
     "Using advanced technologies like Dry Matter Testing, we harvest each tomatoes at the optimal moment for superior taste, creamy texture, and freshness.",
-  image: "/gen-bananas.webp",
+  image: "/social/social-8.png",
   imageAlt: "Team member harvesting tomatoes at peak ripeness",
 };
 
@@ -1148,7 +1140,7 @@ export const tomatoesNutrientSection = {
   heading: "Nutrient management for healthier trees",
   body:
     "By monitoring leaf data with cutting-edge technology, we give our tomatoes trees the exact nutrients they need to thrive, promoting healthier trees and superior fruit quality.",
-  image: "/gen-graduate.webp",
+  image: "/social/social-6.png",
   imageAlt: "Team member examining orchard soil and tree health",
 };
 
@@ -1165,7 +1157,7 @@ export const mainNav: NavLink[] = [
     href: "/about-us",
     children: [
       { label: "About", href: "/about-us" },
-      { label: "The Agrillano Story", href: "/about-us/the-costa-story" },
+      { label: "The Costa Story", href: "/about-us/the-costa-story" },
       { label: "Brand Pillars", href: "/about-us/brand-pillars" },
       { label: "Leadership", href: "/about-us/leadership" },
       { label: "Around the World", href: "/about-us/around-the-world" },
@@ -1181,9 +1173,6 @@ export const mainNav: NavLink[] = [
       { label: "Bananas", href: "/produce/bananas" },
       { label: "Berries", href: "/produce/berries" },
       { label: "Berries International", href: "/produce/berries-international" },
-      { label: "Potato", href: "/produce/potato" },
-      { label: "Grains", href: "/produce/grains" },
-      { label: "Animals", href: "/produce/animals" },
       { label: "Citrus", href: "/produce/citrus" },
       { label: "Grapes", href: "/produce/grapes" },
       { label: "Mushrooms", href: "/produce/mushrooms" },
@@ -1191,12 +1180,12 @@ export const mainNav: NavLink[] = [
     ],
   },
   {
-    label: "Our Agrillano Way",
+    label: "Our Costa Way",
     href: "/our-costa-way",
     children: [
-      { label: "Our Agrillano Way", href: "/our-costa-way" },
+      { label: "Our Costa Way", href: "/our-costa-way" },
       { label: "Farmer Led & Flavour First", href: "/our-costa-way/farmer-led-flavour-first" },
-      { label: "Proudly Grown the Agrillano Way", href: "/our-costa-way/proudly-grown-the-costa-way" },
+      { label: "Proudly Grown the Costa Way", href: "/our-costa-way/proudly-grown-the-costa-way" },
       { label: "We Put People First", href: "/our-costa-way/we-put-people-first" },
     ],
   },
@@ -1206,7 +1195,7 @@ export const mainNav: NavLink[] = [
     href: "/careers",
     children: [
       { label: "Why Work With Us", href: "/careers#why-work-with-us" },
-      { label: "Life at Agrillano", href: "/contact-us#life-at-costa" },
+      { label: "Life at Costa", href: "/contact-us#life-at-costa" },
       { label: "Featured Work", href: "/careers#featured" },
       { label: "Graduate Intake", href: "/careers#graduates" },
       { label: "University Scholarships", href: "/careers#scholarships" },
@@ -1219,7 +1208,7 @@ export const mainNav: NavLink[] = [
     href: "/contact-us",
     children: [
       { label: "FAQ", href: "/contact-us#faq" },
-      { label: "Life at Agrillano", href: "/contact-us#life-at-costa" },
+      { label: "Life at Costa", href: "/contact-us#life-at-costa" },
     ],
   },
 ];
@@ -1241,149 +1230,143 @@ export const produceItems = [
     description:
       "We’ve been growing avocados for over 30 years, and supply nearly year-round from our 600 hectares and partner growers.",
     regions: "New South Wales, Queensland, South Australia, Western Australia",
-    image: "/produce/avocados.webp",
+    image:
+      "/produce/avocados.png",
   },
   {
     title: "Berries",
     description:
       "We’re one of Australia's leading berry producers, delivering hand-picked blueberries, raspberries, strawberries, and blackberries.",
     regions: "New South Wales, Queensland, Tasmania, Western Australia",
-    image: "/produce/berries.webp",
+    image:
+      "/produce/berries.png",
   },
   {
-    title: "Potato",
+    title: "Berries International",
     description:
-      "We grow premium potatoes with consistent quality for fresh market and processing, supported by modern agronomy and supply chain systems.",
-    regions: "Victoria, South Australia, New South Wales",
-    image: "/produce/tomatoes.webp",
-  },
-  {
-    title: "Grains",
-    description:
-      "From corn to wheat and other grain crops, we manage cultivation, harvest, and quality handling to deliver reliable volume and nutrition.",
-    regions: "Queensland, New South Wales, Western Australia",
-    image: "/produce/grapes.webp",
-  },
-  {
-    title: "Animals",
-    description:
-      "Our animal operations focus on responsible care, welfare standards, and efficient farm management that supports sustainable food systems.",
-    regions: "Queensland, Victoria, South Australia",
-    image: "/produce/mushrooms.webp",
+      "We're one of the world's foremost berry producers, with over 900 hectares of advanced substrate growing operations.",
+    regions: "China, Laos, Morocco",
+    image:
+      "/produce/berries-international.png",
   },
   {
     title: "Bananas",
     description:
       "Our bananas are ripened just right and loaded with natural goodness, ready to enjoy - every day, all year round.",
     regions: "Queensland",
-    image: "/produce/bananas.webp",
+    image:
+      "/produce/bananas.png",
   },
   {
     title: "Citrus",
     description:
       "As Australia’s largest citrus grower, we manage every step from tree to market, ensuring consistently fresh and delicious fruit.",
     regions: "Queensland, South Australia, Victoria",
-    image: "/produce/citrus.webp",
+    image:
+      "/produce/citrus.png",
   },
   {
     title: "Grapes",
     description:
       "We grow over 20 varieties of the world’s most sought-after grape varieties, harvested at optimal sweetness and crunch.",
     regions: "Queensland, Victoria",
-    image: "/produce/grapes.webp",
+    image:
+      "/produce/grapes.png",
   },
   {
     title: "Mushrooms",
     description:
       "As the Southern Hemisphere’s largest mushroom grower, we handpick over 20 million mushrooms weekly, year-round.",
     regions: "South Australia, Victoria, Western Australia",
-    image: "/produce/mushrooms.webp",
+    image:
+      "/produce/mushrooms.png",
   },
   {
     title: "Tomatoes",
     description:
       "Our tomatoes are carefully grown indoors, naturally vine-ripened, and harvested at the peak of perfection to deliver quality.",
     regions: "New South Wales",
-    image: "/produce/tomatoes.webp",
+    image:
+      "/produce/tomatoes.png",
   },
 ];
 
 export const costaWay = {
-  title: "Our Agrillano Way",
+  title: "Our Costa Way",
   headline: "We believe that only by doing the right thing by the land, our people, and communities, can we harvest exceptional quality and nourish a better way of living.",
   ctaLabel: "Explore More",
   ctaHref: "/our-costa-way",
-  image: "/gen-teamwork.webp",
+  image: "/social/social-4.png",
 };
 
 export const newsItems = [
   {
     title:
-      "The annual Agrillano Well Grown Community Grants Program for the Armidale and Guyra region is now open for applications.",
+      "The annual Costa Well Grown Community Grants Program for the Armidale and Guyra region is now open for applications.",
     excerpt:
       "Now in its fourth year, the program supports local communities…",
-    href: "/news",
+    href: "/news/community-grants",
     image:
-      "/gen-customer-service.webp",
+      "/news/community-grants.png",
   },
   {
-    title: "Agrillano Berries a finalist in employer awards",
+    title: "Costa Berries a finalist in employer awards",
     excerpt:
-      "Agrillano Berries in Tasmania has been named a finalist in the Asuria’s Employer Awards for the Local Champion Award…",
-    href: "/news",
+      "Costa Berries in Tasmania has been named a finalist in the Asuria’s Employer Awards for the Local Champion Award…",
+    href: "/news/berries-employer-awards",
     image:
-      "/gen-tomatoes-vine.webp",
+      "/news/berries-employer.png",
   },
   {
-    title: "Agrillano mini melons hit the shelves",
+    title: "Costa mini melons hit the shelves",
     excerpt:
-      "Agrillano-grown mini honeydew melons are hitting shelves in 50 top-tier Woolworths stores across Victoria…",
-    href: "/news",
+      "Costa-grown mini honeydew melons are hitting shelves in 50 top-tier Woolworths stores across Victoria…",
+    href: "/news/mini-melons",
     image:
-      "/gen-office-data.webp",
+      "/news/mini-melons.png",
   },
 ];
 
 export const socialPosts = [
   {
-    image: "/gen-farm-sunrise.webp",
+    image: "/social/social-1.png",
     href: "https://www.instagram.com/p/DUXnNxsDD0/",
   },
   {
-    image: "/gen-water-irrigation.webp",
+    image: "/social/social-2.png",
     href: "https://www.instagram.com/p/DUXnNxsDD1/",
   },
   {
-    image: "/gen-mushrooms.webp",
+    image: "/social/social-9.png",
     href: "https://www.instagram.com/p/DUXnNxsDD2/",
     isVideo: true,
   },
   {
-    image: "/gen-teamwork.webp",
+    image: "/social/social-4.png",
     href: "https://www.instagram.com/p/DUXnNxsDD3/",
   },
   {
-    image: "/gen-farm-sunrise.webp",
+    image: "/social/social-5.png",
     href: "https://www.instagram.com/p/DUXnNxsDD4/",
   },
   {
-    image: "/gen-lab-science.webp",
+    image: "/social/social-6.png",
     href: "https://www.instagram.com/p/DUXnNxsDD5/",
   },
   {
-    image: "/gen-logistics-truck.webp",
+    image: "/social/social-7.png",
     href: "https://www.instagram.com/p/DUXnNxsDD6/",
   },
   {
-    image: "/gen-fresh-market.webp",
+    image: "/social/social-8.png",
     href: "https://www.instagram.com/p/DUXnNxsDD7/",
   },
   {
-    image: "/gen-customer-service.webp",
+    image: "/social/social-3.png",
     href: "https://www.instagram.com/p/DUXnNxsDD8/",
   },
   {
-    image: "/gen-logistics-truck.webp",
+    image: "/social/social-10.png",
     href: "https://www.instagram.com/p/DUXnNxsDD9/",
   },
 ];
@@ -1392,11 +1375,12 @@ export const footerNav = {
   col1: {
     title: "About",
     links: [
-      { label: "Brand Pillars", href: "/about-us/brand-pillars" },
-      { label: "The Agrillano Story", href: "/about-us/the-costa-story" },
+      { label: "Values", href: "/about-us/values" },
+      { label: "The Costa Story", href: "/about-us/the-costa-story" },
       { label: "Leadership", href: "/about-us/leadership" },
       { label: "Grown Around the World", href: "/about-us/around-the-world" },
-      { label: "Wholesale & Distribution", href: "/about-us/wholesale-distribution" },
+      { label: "Exports", href: "/exports" },
+      { label: "Trading Terms", href: "/trading-terms" },
     ],
   },
   col2: {
@@ -1404,13 +1388,14 @@ export const footerNav = {
     links: mainNav.find((n) => n.label === "Produce")?.children?.slice(1) ?? [],
   },
   col3: {
-    title: "Our Agrillano Way",
-    links: mainNav.find((n) => n.label === "Our Agrillano Way")?.children?.slice(1) ?? [],
+    title: "Our Costa Way",
+    links: mainNav.find((n) => n.label === "Our Costa Way")?.children?.slice(1) ?? [],
   },
   col4: {
     title: "News",
     links: [
       { label: "Featured Articles", href: "/news" },
+      { label: "Archive Articles", href: "/news/archive" },
     ],
   },
   col5: {
@@ -1421,14 +1406,14 @@ export const footerNav = {
     title: "Contact",
     links: [
       { label: "FAQ", href: "/contact-us#faq" },
-      { label: "Life at Agrillano", href: "/contact-us#life-at-costa" },
+      { label: "Life at Costa", href: "/contact-us#life-at-costa" },
     ],
   },
 };
 
 export const footerLegal = {
   acknowledgement:
-    "In the spirit of reconciliation Agrillano acknowledges the Traditional Custodians of country throughout Australia and their connections to land, sea and community. We pay our respects where we live work and grow, and across all Agrillano locations to elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples today.",
+    "In the spirit of reconciliation Costa acknowledges the Traditional Custodians of country throughout Australia and their connections to land, sea and community. We pay our respects where we live work and grow, and across all Costa locations to elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples today.",
   social: [
     { label: "Facebook", href: "https://facebook.com" },
     { label: "Vimeo", href: "https://vimeo.com" },
@@ -1439,29 +1424,29 @@ export const footerLegal = {
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Terms and Conditions", href: "/terms" },
   ],
-  copyright: "© 2026 Agrillano. All rights reserved",
+  copyright: "© 2026 Costa. All rights reserved",
 };
 
 /** Hero background slides (replace with video when ready). Local + remote OK. */
 export const heroSlides: { src: string; alt: string }[] = [
   {
-    src: "/gen-farm-sunrise.webp",
-    alt: "Golden sunrise over farm rows",
+    src: "/social/social-4.png",
+    alt: "Aerial view of orchard rows",
   },
   {
-    src: "/gen-aerial.webp",
-    alt: "Aerial pattern of cultivated farmland",
+    src: "/social/social-6.png",
+    alt: "Fresh produce fields",
   },
   {
-    src: "/gen-greenhouse.webp",
-    alt: "Protected cropping greenhouse landscape",
+    src: "/social/social-8.png",
+    alt: "Farm worker in orchard",
   },
 ];
 
 export const contactHero = {
   title: "Keen to chat or\ngot a question?",
   subtitle: "Give us a shout - we’re here to help.",
-  image: "/gen-agtech-drone.webp",
+  image: "/produce/berries.png",
   imageAlt: "Person picking blackberries off the vine",
 };
 
@@ -1469,16 +1454,16 @@ export const contactFaqSection = {
   heading: "FAQ Section",
   items: [
     {
-      question: "What job opportunities are available at Agrillano?",
-      answer: "Agrillano offers a wide range of roles across our farms, packing facilities, and offices, including apprenticeships, traineeships, and career development programs. Check out our current job listings to find the right fit for you."
+      question: "What job opportunities are available at Costa?",
+      answer: "Costa offers a wide range of roles across our farms, packing facilities, and offices, including apprenticeships, traineeships, and career development programs. Check out our current job listings to find the right fit for you."
     },
     {
-      question: "How do I apply for a job at Agrillano?",
+      question: "How do I apply for a job at Costa?",
       answer: "You can apply directly through our careers page, where you’ll find all available positions and information on how to apply. Check out our current job listings."
     },
     {
       question: "Do you offer seasonal work or short-term employment?",
-      answer: "Yes, Agrillano offers seasonal roles in harvesting, packing, and more. These opportunities are perfect for working holiday makers and those seeking short-term employment. Check out our current job listings."
+      answer: "Yes, Costa offers seasonal roles in harvesting, packing, and more. These opportunities are perfect for working holiday makers and those seeking short-term employment. Check out our current job listings."
     }
   ]
 };
@@ -1486,21 +1471,21 @@ export const contactFaqSection = {
 export const contactFormSection = {
   headingLine1: "Still not sure?",
   headingLine2: "Reach out with the form below!",
-  image: "/gen-potatoes-soil.webp",
-  imageAlt: "Smiling Agrillano team member wearing glasses and high-vis vest in facility",
+  image: "/social/social-5.png",
+  imageAlt: "Smiling Costa team member wearing glasses and high-vis vest in facility",
 };
 
 export const contactDetailsSection = {
-  image: "/gen-customer-service.webp",
+  image: "/social/social-6.png",
   imageAlt: "Agrillano worker packing bananas",
   businessSupportCentre: {
     heading: "Office Address",
-    body: "117/530 Little Collins St,\nMelbourne VIC 3000-Australia"
+    body: "117/530 Little Collins St, Melbourne VIC 3000-Australia",
   },
   postalAddress: {
     heading: "Postal Address",
-    body: "117/530 Little Collins St,\nMelbourne VIC 3000-Australia"
+    body: "117/530 Little Collins St, Melbourne VIC 3000-Australia",
   },
   phone: "+61489996523",
-  email: "contact.au@agrillano.com"
+  email: "contact.au@agrillano.com",
 };
