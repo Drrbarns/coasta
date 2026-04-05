@@ -38,6 +38,14 @@ export const metadata: Metadata = {
   description: siteMeta.description,
   applicationName: siteMeta.name,
   category: "Agriculture",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/site-icon.png", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: ["/favicon.ico"],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
   alternates: {
     canonical: absoluteUrl("/"),
   },
@@ -73,10 +81,10 @@ export const metadata: Metadata = {
     description: siteMeta.description,
     images: [
       {
-        url: absoluteUrl("/gen-farm-sunrise.webp"),
+        url: absoluteUrl("/agrillano-social.png"),
         width: 1200,
         height: 630,
-        alt: `${siteMeta.name} farms at sunrise`,
+        alt: `${siteMeta.name} logo`,
       },
     ],
   },
@@ -84,7 +92,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${siteMeta.name} | Fresh Produce and Farming`,
     description: siteMeta.description,
-    images: [absoluteUrl("/gen-farm-sunrise.webp")],
+    images: [absoluteUrl("/agrillano-social.png")],
   },
 };
 

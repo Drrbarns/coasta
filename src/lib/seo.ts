@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { siteMeta } from "@/content/site";
 
-const FALLBACK_OG_IMAGE = "/gen-farm-sunrise.webp";
+const FALLBACK_OG_IMAGE = "/agrillano-social.png";
 const DEFAULT_KEYWORDS = [
   "Agrillano",
   "fresh produce",
@@ -51,6 +51,7 @@ export function buildMetadata({
 }: SeoInput): Metadata {
   const canonical = absoluteUrl(path);
   const imageUrl = absoluteUrl(image);
+  const socialLogoUrl = absoluteUrl("/agrillano-social.png");
 
   return {
     title,
@@ -93,18 +94,28 @@ export function buildMetadata({
       type,
       images: [
         {
-          url: imageUrl,
+          url: socialLogoUrl,
           width: 1200,
           height: 630,
-          alt: title,
+          alt: `${siteMeta.name} logo`,
         },
+        ...(imageUrl !== socialLogoUrl
+          ? [
+              {
+                url: imageUrl,
+                width: 1200,
+                height: 630,
+                alt: title,
+              },
+            ]
+          : []),
       ],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [imageUrl],
+      images: [socialLogoUrl],
     },
   };
 }
@@ -115,7 +126,7 @@ export function organizationJsonLd() {
     "@type": "Organization",
     name: siteMeta.name,
     url: BASE_URL,
-    logo: absoluteUrl("/agrillano_logo_header@2x.webp"),
+    logo: absoluteUrl("/site-icon.png"),
     description: siteMeta.description,
     sameAs: [
       "https://www.instagram.com/",
