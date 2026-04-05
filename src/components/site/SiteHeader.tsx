@@ -34,7 +34,7 @@ export function SiteHeader() {
   }, []);
 
   return (
-    <header className="relative z-50 overflow-visible">
+    <header className="sticky top-0 z-50 overflow-visible">
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded focus:bg-white focus:px-3 focus:py-2 focus:text-[var(--header-bg)]"

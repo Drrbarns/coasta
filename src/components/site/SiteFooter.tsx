@@ -159,20 +159,20 @@ export function SiteFooter() {
       </div>
 
       <div className="hidden md:block">
-        <div className="mx-auto max-w-[1500px] px-4 pb-8 pt-8 md:px-8 md:pb-9 md:pt-9 lg:px-5 lg:pb-9 lg:pt-9">
-        <div className="flex flex-col gap-8 lg:flex-row lg:gap-14">
+        <div className="mx-auto max-w-[1600px] px-6 pb-8 pt-9 lg:px-8 lg:pb-10 lg:pt-10">
+        <div className="flex flex-col gap-9 lg:flex-row lg:gap-16">
           
           {/* Left Column */}
-          <div className="flex flex-col lg:max-w-[26rem] xl:max-w-[27rem]">
+          <div className="flex flex-col lg:max-w-[22rem] xl:max-w-[24rem]">
             <div className="mb-5 lg:mb-7">
               <CostaLogo className="text-[2.1rem] md:text-[2.25rem]" imageClassName="h-[52px] w-auto md:h-[64px]" />
             </div>
             
-            <h2 className="mb-4 font-[family-name:var(--font-inter)] text-[2.6rem] font-medium leading-[0.94] tracking-tight md:text-[2.85rem]">
+            <h2 className="mb-4 font-[family-name:var(--font-inter)] text-[2.45rem] font-medium leading-[0.95] tracking-tight xl:text-[2.7rem]">
               Growing fresh, nutritious<br />produce loved by all
             </h2>
             
-            <p className="mb-6 max-w-[27rem] font-[family-name:var(--font-inter)] text-[0.7rem] leading-[1.11] text-white/90 md:text-[0.74rem]">
+            <p className="mb-6 max-w-[22rem] font-[family-name:var(--font-inter)] text-[0.74rem] leading-[1.22] text-white/90">
               {footerLegal.acknowledgement}
             </p>
             
@@ -198,9 +198,9 @@ export function SiteFooter() {
           </div>
 
           {/* Right Column */}
-          <div className="flex-1 pt-2 lg:pt-0">
+          <div className="flex-1 pt-1 lg:pt-0">
             {/* Search Bar */}
-            <div className="mb-8 flex justify-start lg:justify-end">
+            <div className="mb-9 flex justify-start lg:justify-end">
               <form
                 action="https://www.google.com/search"
                 method="get"
@@ -235,15 +235,15 @@ export function SiteFooter() {
             </div>
 
             {/* Links Grid */}
-            <div className="grid grid-cols-2 gap-x-6 gap-y-7 sm:grid-cols-3 lg:grid-cols-6 xl:gap-x-8">
+            <div className="grid grid-cols-2 gap-x-8 gap-y-8 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 xl:gap-x-10">
               {cols.map((col) => (
-                <div key={col.title}>
-                  <ul className="space-y-[0.4rem]">
+                <div key={col.title} className="min-w-0">
+                  <ul className="space-y-1.5">
                     {/* The column title acts as the first link visually */}
                     <li>
                       <Link
                         href={col.links[0]?.href || "/"}
-                        className="text-[0.97rem] font-medium leading-tight text-white hover:underline"
+                        className="text-[1.02rem] font-semibold leading-tight text-white hover:underline"
                       >
                         {col.title}
                       </Link>
@@ -252,7 +252,7 @@ export function SiteFooter() {
                       <li key={link.href + link.label}>
                         <Link
                           href={link.href}
-                          className="text-[0.97rem] leading-tight text-white/90 transition hover:text-white hover:underline"
+                          className="text-[0.97rem] leading-[1.3] text-white/90 transition hover:text-white hover:underline"
                         >
                           {link.label}
                         </Link>
